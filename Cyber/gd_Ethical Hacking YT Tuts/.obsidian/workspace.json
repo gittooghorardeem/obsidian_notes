@@ -1,0 +1,183 @@
+{
+  "main": {
+    "id": "d346111edc1f0046",
+    "type": "split",
+    "children": [
+      {
+        "id": "94c22d11cfe59f50",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c9aecaa4de080eff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ethical Hacking Youtube/Starter Resources/Tech Skill requirements.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tech Skill requirements"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f422c94bae99b828",
+    "type": "split",
+    "children": [
+      {
+        "id": "fced87014f792c53",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d9a8995a5831d8ec",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "35f5c7ad0d69af4f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "2c5757920deb4086",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f1f2b797d7c23a5e",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f47acd86fec3c7a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "91116b1ed838a11b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Ethical Hacking Youtube/Starter Resources/Tech Skill requirements.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Tech Skill requirements"
+            }
+          },
+          {
+            "id": "211ee043fd8efecb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Ethical Hacking Youtube/Starter Resources/Tech Skill requirements.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Tech Skill requirements"
+            }
+          },
+          {
+            "id": "9b203404a18cfebb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ddbc3a1c946639c0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Ethical Hacking Youtube/Starter Resources/Tech Skill requirements.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Tech Skill requirements"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "c9aecaa4de080eff",
+  "lastOpenFiles": [
+    "2025-04-26.md",
+    "Ethical Hacking Youtube/Starter Resources/Tech Skill requirements.md",
+    "Untitled.md",
+    "Untitled 1",
+    "Untitled",
+    "Ethical Hacking Youtube/Untitled.canvas",
+    "Ethical Hacking Youtube/Starter Resources",
+    "Welcome.md",
+    "Ethical Hacking Youtube"
+  ]
+}
