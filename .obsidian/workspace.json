@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian_Notes/GIT/Git Basics.md",
+                "file": "Travel/National/Sundarbans.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git Basics"
+              "title": "Sundarbans"
             }
           }
         ]
@@ -168,8 +168,18 @@
   },
   "active": "5975ac1c44868684",
   "lastOpenFiles": [
-    "Obsidian_Notes/GIT/Untitled.canvas",
+    "Personals/Github.md",
+    "Travel/National/Sundarbans.md",
+    "Travel/International",
+    "Travel/National",
+    "Untitled",
+    "Travel",
+    "Obsidian_Notes/Interview/Interview -Taufiq Ul Alam.md",
+    "Obsidian_Notes/Interview/Interview - Ishmam Selim Choudhury.md",
+    "Obsidian_Notes/Interview/Interview.md",
+    "Obsidian_Notes/Burp Suite/Burp Suite setup.md",
     "Obsidian_Notes/GIT/Git Basics.md",
+    "Obsidian_Notes/GIT/Untitled.canvas",
     "Automation/Unreal Engine/Assets libraries.md",
     "Automation/Unreal Engine/Untitled.md",
     "Automation/Unreal Engine/UE Basics/Basic Game Project setup.md",
@@ -183,7 +193,6 @@
     "Automation/Unreal Engine/YT Tutorial",
     "Automation/YT Tutorial",
     "Automation/Untitled",
-    "Automation/Unreal Engine",
-    "Personals/Github.md"
+    "Automation/Unreal Engine"
   ]
 }
