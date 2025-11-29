@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQA/Tools.md",
+                "file": "Automation/Automation/Playwright/Snippets.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tools"
+              "title": "Snippets"
             }
           }
         ]
@@ -168,16 +168,19 @@
   },
   "active": "5805137fec4dd183",
   "lastOpenFiles": [
-    "SQA/Intvw/Investigate.md",
+    "SQA/MIsc....md",
+    "SQA/Tools.md",
+    "Cyber/gd_cyber/Kali/Terminal Basics.md",
+    "Cyber/gd_Ethical Hacking YT Tuts/Ethical Hacking Youtube/Starter Resources/Tech Skill requirements.md",
     "SQA/Intvw/Top 20 Interview Questions & Answers for SQA Manager Roles – 2025.md",
+    "SQA/Intvw/Investigate.md",
+    "Personals/Github.md",
     "SQA/Intvw/Top 50 Software Quality Assurance Interview Questions.md",
     "SQA/Intvw/30 Software Quality Assurance Manager Interview Questions and Answers.md",
     "SQA/Intvw",
-    "SQA/Tools.md",
     "Travel/National/Sundarbans.md",
     "SQA/Interview qus",
     "SQA",
-    "Personals/Github.md",
     "Travel/International",
     "Travel/National",
     "Travel",
