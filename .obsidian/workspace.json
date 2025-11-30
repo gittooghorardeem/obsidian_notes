@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Automation/Automation/Playwright/Snippets.md",
+                "file": "Automation/Automation/Appium/Tutorial Basics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Snippets"
+              "title": "Tutorial Basics"
             }
           }
         ]
@@ -168,8 +168,16 @@
   },
   "active": "5805137fec4dd183",
   "lastOpenFiles": [
-    "SQA/MIsc....md",
+    "Automation/Automation/Appium/Setup.md",
+    "Automation/Automation/Appium/Tutorial Basics.md",
+    "Automation/Automation/Appium/Commands.md",
+    "Tools/Android SDK platform/ADB commands.md",
     "SQA/Tools.md",
+    "Tools/Android SDK platform",
+    "Tools",
+    "Automation/Automation/Appium",
+    "Automation/Automation/Playwright/Snippets.md",
+    "SQA/MIsc....md",
     "Cyber/gd_cyber/Kali/Terminal Basics.md",
     "Cyber/gd_Ethical Hacking YT Tuts/Ethical Hacking Youtube/Starter Resources/Tech Skill requirements.md",
     "SQA/Intvw/Top 20 Interview Questions & Answers for SQA Manager Roles – 2025.md",
@@ -196,11 +204,6 @@
     "Automation/Unreal Engine/UE Basics/Basic Project setup.md",
     "Automation/Unreal Engine/UE Basics/Untitled.md",
     "Automation/Unreal Engine/UE Basics",
-    "Automation/Unreal Engine/Untitled",
-    "Automation/Unreal Engine/YT Tutorial/UE tutorial for Beginner.md",
-    "Automation/Unreal Engine/YT Tutorial/Untitled.md",
-    "Automation/Untitled.md",
-    "Automation/Unreal Engine/YT Tutorial",
-    "Automation/YT Tutorial"
+    "Automation/Unreal Engine/YT Tutorial/UE tutorial for Beginner.md"
   ]
 }

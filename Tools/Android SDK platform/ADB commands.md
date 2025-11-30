@@ -1,0 +1,3 @@
+- `adb devices`
+- `adb -s <device udid> <command>`
+- For windows cmd use `findstr` instead of `grep`
