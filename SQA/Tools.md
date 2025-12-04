@@ -19,3 +19,6 @@
 - AI tools for QA : 
 	- [10 AI tools that can help you with quality assurance in 2025](https://content.techgig.com/career-advice/10-ai-tools-that-can-help-you-with-quality-assurance-in-2025/articleshow/118321530.cms)
 - Version One
+- Xray
+- jmeter
+- jenkins
