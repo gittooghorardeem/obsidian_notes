@@ -1,0 +1,11 @@
+- Content Browser : always have a *Maps* folder (new folder - rename to Maps)
+- in the maps folder create a *new level*
+- **Project settings** :  (*Edit > Project Settings*)
+	- *Project > Maps and Modes*
+	- set the project map as defaults 
+- Add *SkyLight, SkyAmos, ExpoFog, DirectionalLight
+* in the viewport  
+- To update the properties go to *Details* panel of the selected object
+- Transform : *Location - Rotation - Scale*
+- Light Property : *Static - Stationary - Movable*
+- 

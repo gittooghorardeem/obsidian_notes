@@ -1,0 +1,2 @@
+- https://www.youtube.com/@RaghavPal/videos
+- https://automationstepbystep.com/

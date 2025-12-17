@@ -1,0 +1,6 @@
+- *Landscape* mode
+	- can update the attributes from "New Location" section
+	- *Create*
+	- *Edit* the landscape (Under Landscape mode)
+	- **Sculpt** tool
+	- Randomize : use **Noise**

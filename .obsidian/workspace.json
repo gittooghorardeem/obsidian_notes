@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Automation/Automation/Appium/Setup.md",
+                "file": "Automation/Automation/JMeter/JMeter Basics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Setup"
+              "title": "JMeter Basics"
             }
           }
         ]
@@ -168,9 +168,27 @@
   },
   "active": "5805137fec4dd183",
   "lastOpenFiles": [
+    "Automation/Automation Tutorials.md",
+    "Automation/Automation/JMeter/JMeter Basics.md",
+    "Automation/Automation/TestTim/TestTim.md",
+    "Automation/Automation/JMeter",
+    "Automation/Automation/QA Wolf/QA Wolf.md",
+    "Automation/Automation/TestTim",
+    "Automation/Automation/Autify/Autify.md",
+    "Automation/Automation/QA Wolf",
+    "Automation/Automation/BugHerd/Bugherd.md",
+    "Automation/Automation/Autify",
+    "Automation/Automation/Untitled.md",
+    "Automation/Unreal Engine/UE Basics/Blueprints.md",
+    "Automation/Automation/BugHerd",
+    "Automation/Unreal Engine/UE Basics/Creating Levels.md",
+    "Automation/Unreal Engine/UE Basics/Landscapes.md",
+    "Automation/Unreal Engine/UE Basics/Basic Game Project setup.md",
+    "Automation/Unreal Engine/Assets libraries.md",
+    "Automation/Unreal Engine/YT Tutorial/UE tutorial for Beginner.md",
+    "Automation/Automation/Appium/Setup.md",
     "Automation/Automation/Appium/Tutorial Basics.md",
     "SQA/Tools.md",
-    "Automation/Automation/Appium/Setup.md",
     "Automation/Automation/Appium/Commands.md",
     "Tools/Android SDK platform/ADB commands.md",
     "Tools/Android SDK platform",
@@ -184,26 +202,8 @@
     "SQA/Intvw/Investigate.md",
     "Personals/Github.md",
     "SQA/Intvw/Top 50 Software Quality Assurance Interview Questions.md",
-    "SQA/Intvw/30 Software Quality Assurance Manager Interview Questions and Answers.md",
     "SQA/Intvw",
-    "Travel/National/Sundarbans.md",
     "SQA/Interview qus",
-    "SQA",
-    "Travel/International",
-    "Travel/National",
-    "Travel",
-    "Obsidian_Notes/Interview/Interview -Taufiq Ul Alam.md",
-    "Obsidian_Notes/Interview/Interview - Ishmam Selim Choudhury.md",
-    "Obsidian_Notes/Interview/Interview.md",
-    "Obsidian_Notes/Burp Suite/Burp Suite setup.md",
-    "Obsidian_Notes/GIT/Git Basics.md",
-    "Obsidian_Notes/GIT/Untitled.canvas",
-    "Automation/Unreal Engine/Assets libraries.md",
-    "Automation/Unreal Engine/Untitled.md",
-    "Automation/Unreal Engine/UE Basics/Basic Game Project setup.md",
-    "Automation/Unreal Engine/UE Basics/Basic Project setup.md",
-    "Automation/Unreal Engine/UE Basics/Untitled.md",
-    "Automation/Unreal Engine/UE Basics",
-    "Automation/Unreal Engine/YT Tutorial/UE tutorial for Beginner.md"
+    "Obsidian_Notes/GIT/Untitled.canvas"
   ]
 }
