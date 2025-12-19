@@ -1,0 +1,7 @@
+- Each Workflow start with a *Trigger Node*
+- OAuth2 and REST 
+- OAuth2 (*didnt required these in the test project i was working on*)
+	- Valid Client ID and Client Secret 
+- REST
+	- Interacting with WEB APIs
+	- 

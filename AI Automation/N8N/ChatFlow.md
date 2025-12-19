@@ -1,0 +1,6 @@
+- OpenAI api key 
+	- *n8nAPIKey* : stored in gdrive
+- "System prompt"
+- Using google gemini chat model here instead of openAI
+- Context window length
+- 
