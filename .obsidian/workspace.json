@@ -166,8 +166,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "5805137fec4dd183",
+  "active": "ddb0902e7b8abfb8",
   "lastOpenFiles": [
+    "Gaming/Unreal",
+    "Gaming",
     "docker_cheatsheet 1.pdf",
     "docker_cheatsheet.pdf",
     "AI Automation/N8N/n8n Self Hosted.md",
@@ -192,7 +194,6 @@
     "Automation/Automation/Autify",
     "Automation/Automation/Untitled.md",
     "Automation/Unreal Engine/UE Basics/Blueprints.md",
-    "Automation/Automation/BugHerd",
     "Automation/Unreal Engine/UE Basics/Creating Levels.md",
     "Automation/Unreal Engine/UE Basics/Landscapes.md",
     "Automation/Unreal Engine/UE Basics/Basic Game Project setup.md",
@@ -203,7 +204,6 @@
     "SQA/Tools.md",
     "Automation/Automation/Appium/Commands.md",
     "Tools/Android SDK platform/ADB commands.md",
-    "Tools/Android SDK platform",
     "Obsidian_Notes/GIT/Untitled.canvas"
   ]
 }
