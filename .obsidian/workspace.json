@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Automation/N8N/N8N Basics.md",
+                "file": "AI Automation/N8N/n8n Self Hosted.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "N8N Basics"
+              "title": "n8n Self Hosted"
             }
           }
         ]
@@ -168,9 +168,11 @@
   },
   "active": "5805137fec4dd183",
   "lastOpenFiles": [
+    "AI Automation/N8N/n8n Tutorial.md",
+    "AI Automation/N8N/n8n Self Hosted.md",
+    "AI Automation/N8N/PanicAppNotification.md",
     "AI Automation/N8N/ChatFlow.md",
     "AI Automation/N8N/N8N Basics.md",
-    "AI Automation/N8N/n8n Tutorial.md",
     "Automation/Automation/JMeter/JMeter Basics.md",
     "AI Automation/N8N",
     "Untitled",
@@ -202,8 +204,6 @@
     "Automation/Automation/Playwright/Snippets.md",
     "SQA/MIsc....md",
     "Cyber/gd_cyber/Kali/Terminal Basics.md",
-    "Cyber/gd_Ethical Hacking YT Tuts/Ethical Hacking Youtube/Starter Resources/Tech Skill requirements.md",
-    "SQA/Intvw/Top 20 Interview Questions & Answers for SQA Manager Roles – 2025.md",
     "Obsidian_Notes/GIT/Untitled.canvas"
   ]
 }

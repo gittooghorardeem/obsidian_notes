@@ -1,0 +1,4 @@
+- Trigger node : *whatsapp trigger node*
+- Requires credentials to be created
+	- need to have a facebook business account (can also be created through facebook developer account)
+	- 
