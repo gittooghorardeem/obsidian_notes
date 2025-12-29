@@ -1,0 +1,5 @@
+- [Practice Automation Testing](https://practice.expandtesting.com/)
+- [Practice Webstore site](https://practicesoftwaretesting.com/)
+- [GIT repo for practice sites](https://github.com/christianbaumann/personal-knowledge-base/blob/master/links/testautomation.md#practice-sites)
+- [20 Website git repo](https://ultimateqa.com/dummy-automation-websites/)
+- 

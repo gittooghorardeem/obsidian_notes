@@ -1,0 +1,2 @@
+- `sudo passwd` : create Super user password
+- `sudo netstat -tulpn` : Shows open ports 
