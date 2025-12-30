@@ -1,0 +1,11 @@
+- HTML -  Hyper Text Markup Language
+- HTML represents the content and structure of a webpage
+- While HTML defines the structure and content of a webpage, CSS is used to add style — things like colors, fonts, spacing, and layout.
+- Finally, JavaScript makes your webpage interactive — it lets you tell the page what to do when someone clicks a button, submits a form, or many other things.
+- Void elements : <element /> : Void elements cannot have any content and only have a start tag.
+- the HTML spec states that the presence of the `/` *"does not mark the start tag as self-closing but instead is unnecessary and has no effect of any kind"*.
+- <element attribute="value"></element> <element attribute="value"></element> `<element attribute="value"></element>`
+- The `href` attribute specifies the URL of a link and the `target` attribute specifies where to open the link.
+	- `<a href="https://www.freecodecamp.org/news/" target="_blank">Visit freeCodeCamp</a>` - will open in a new browser tab
+- `<input type="checkbox" checked />`
+- There are several common boolean attributes you will encounter in HTML, such as `disabled`, `readonly`, and `required`.
