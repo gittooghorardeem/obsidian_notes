@@ -9,3 +9,6 @@
 	- `<a href="https://www.freecodecamp.org/news/" target="_blank">Visit freeCodeCamp</a>` - will open in a new browser tab
 - `<input type="checkbox" checked />`
 - There are several common boolean attributes you will encounter in HTML, such as `disabled`, `readonly`, and `required`.
+- The `figure` element represents self-contained content and will allow you to associate an image with a caption.
+- A figure caption (`figcaption`) element is used to add a caption to describe the image contained within the `figure` element.
+- To place emphasis on a specific word or phrase, you can use the `em` element
