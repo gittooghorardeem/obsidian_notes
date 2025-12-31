@@ -1,0 +1,5 @@
+- An SVG is a different kind of image. SVG stands for a scalable vector graphic. A vector graphic tracks data based on paths and equations to plot points, lines, and curves. What this really means is that a vector graphic, like an SVG, can be scaled to any size without impacting the quality.
+- The `svg` element is the container for the whole drawing. It sets up the space where all the shapes appear. Everything you want to draw with SVG, such as circles, lines, or paths, goes inside the `svg` element.
+- The `circle` element is used to make the face and the eyes. One large circle forms the yellow face, and two smaller circles make the eyes.
+- The `path` element is used to draw the smile. It creates a curved line for the mouth.
+- Each SVG element has attributes that control its appearance and position within the drawing area.
