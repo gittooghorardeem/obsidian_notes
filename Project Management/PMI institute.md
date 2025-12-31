@@ -1,0 +1,2 @@
+- [PMI](https://www.pmi.org/shop/tc/p-/elearning/practical-application-of-generative-ai-for-project-managers/el173?modal=registration)
+- 

@@ -1,0 +1,24 @@
+- The `div` element is used as a container to group other elements.
+	- You will mainly use the `div` element when you want to group HTML elements that will share a set of CSS styles. You will learn more about CSS in future lessons and workshops.
+	- if you wanted to divide up your content into sections, then the `section` element would be more appropriate than a `div` element.
+- The `section` element has semantic meaning over the `div` element which is not semantic. Semantics are the meaning of words or phrases in a language. In HTML, which is a language, elements have their own semantic meaning too. So, this means if you use a `section` element, the browser will pick up its semantic meaning and understand to treat this as a section - on desktops, mobiles, you name it.
+- The `id` attribute adds a unique identifier to an HTML element.
+	- You can reference the `id` name of `title` within your JavaScript or CSS. Here's a CSS example referencing the `id` of `title` to change the text `color` to `red`.
+	- in CSS id is represented as `#id {---}`
+	- The hash symbol (`#`) in front of `title`, tells the computer you want to target an `id` with that value
+	- `id` names should not be used more than once, and they should always be unique.
+	- `id` values, is that they cannot have spaces in them.
+		- Browsers will see this space as part of the `id` which will lead to unwanted issues when it comes to styling and scripting
+- the `class` attribute value does not need to be unique and can contain spaces.
+	- to add multiple class names to an element, you can do so by separating the names by a space. Here is an updated example applying multiple classes to a `div` element.
+  `<div class="box red-box"></div>`
+	- In CSS the class is represented as `.class{---}`
+- `<p>This is an &lt;img /&gt; element</p>` : "This is an <img /> element"
+	- These types of character references are known as named character references.
+	- Named references start with an ampersand sign (`&`) and end with a semicolon (`;`).
+	- Another type of character reference would be the decimal numeric reference. This character reference starts with an ampersand sign and hash symbol (`#`), followed by one or more decimal digits, followed by a semicolon.
+	- You can use `&#169;` for the copyright symbol and `&#174;` for the trademark symbol and `&#60;` for less than symbol.
+	- type of character reference would be the hexadecimal numeric reference. This character reference starts with an ampersand sign, hash symbol, and the letter `x`. Then it is followed by one or more ASCII hex digits and ends with a semicolon.
+	-  `&#x20AC;` for the euro symbol and `&#x03A9;` for the Greek capital letter Omega symbol and `&#x3C;` for Less than symbol
+- The `script` element is used to embed executable code. Most developers will use this to execute JavaScript code. JavaScript is used to add interactivity to your web pages. Common examples of using JavaScript include interactive games, image sliders, and dynamic forms that validate user input in real-time.
+- 
