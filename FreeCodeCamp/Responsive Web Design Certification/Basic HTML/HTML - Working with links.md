@@ -1,0 +1,27 @@
+-  `target` attribute on anchor elements, or links. This important attribute tells the browser where to open the URL for the anchor element.
+	- There are four important possible values for this attribute. Note that each value is preceded by an underscore.
+	- The first value is `_self`, which is the default value. This opens the link in the current browsing context. In most cases, this will be the current tab or window.
+	- The second value is `_blank`, which opens the link in a new browsing context. Typically, this will open in a new tab. But some users might configure their browsers to open a new window instead.
+	- The third value is `_parent`, which opens the link in the parent of the current context. For example, if your website has an `iframe`, a `_parent` value in that `iframe` would open in your website's tab/window, not in the embedded frame.
+	- The fourth value is `_top`, which opens the link in the top-most browsing context - think "the parent of the parent". This is similar to `_parent`, but the link will always open in the full browser tab/window, even for nested embedded frames.
+	- There is a fifth value, called `_unfencedTop`, which is currently used for the experimental FencedFrame API. At the time of this lesson, you probably won't have a reason to use this one yet.
+- A **path** is a string that specifies the location of a file or directory in a file system. In web development, paths let developers link to resources like images, stylesheets, scripts, and other web pages. 
+	- There are absolute and relative paths - both are essential when specifying file locations within a file system. Let's look at the two so you can decide which one of them to use and when.
+	- An absolute path is a complete link to a resource. It starts from the root directory, includes every other directory, and finally the filename and extension. The "root directory" refers to the top-level directory or folder in a hierarchy.
+	- An absolute path also includes the protocol - which could be `http`, `https`, and `file` and the domain name if the resource is on the web. Here's an example of an absolute path that links to the freeCodeCamp logo:
+- So, which should you use and when; an absolute path or a relative path? Here are the rules you should follow:
+	- - Use absolute paths when linking to a resource hosted on an external website.
+	- - Use absolute paths when you need the link to a page or resource to work consistently regardless of the document location within the site.
+	- - Use relative paths when linking to resources within the same website.
+	- - Use relative paths if you want to keep your code cleaner and easier to maintain during development.
+	- - Use relative paths during local testing to ensure links work without an internet connection.
+-  There are three key syntaxes to know. First is the slash, which can be a backslash (`\`) or forward slash (`/`) depending on your operating system. The second is the single dot (`.`). And finally, we have the double dot (`..`).
+	- The slash is known as the "path separator". It is used to indicate a break in the text between folder or file names. This is how your computer knows that `naomis-files/` points to a directory of that same name, while `naomis/files/` points to a `files` directory in the `naomis` directory.
+	- A single dot points to the current directory, and two dots point to the parent directory
+- Link states
+	- The first is the default state, which is `:link`. This state represents a link which the user has not visited, clicked, or interacted with yet. You can think of this state as providing the base styles for all links on your page. The other states build on top of it.
+	- The second state is `:visited`, which applies when a user has already visited the page being linked to. By default, this turns the link purple - but you can leverage CSS to provide a different visual indication to the user. This is helpful to let someone know they have already read a portion of your documentation. Or, that the site is one they can trust because they have used it before.
+	- The third state is `:hover`. This state applies when a user is hovering their cursor over a link. This state is helpful for providing extra attention to a link, to ensure a user actually intends to click it.
+	- Then we have `:focus`. This state applies when we focus on a link.
+	- And finally, we have `:active`. This state applies to links that are being activated by the user. This typically means clicking on the link with the primary mouse button by left clicking, in most cases. This state can be helpful for showing a user that the element they clicked on is interactive.
+	- When you use these states to style your links, there is a specific order you need to write your CSS in: `link`, `visited`, `hover`, `focus`, then `active`.
