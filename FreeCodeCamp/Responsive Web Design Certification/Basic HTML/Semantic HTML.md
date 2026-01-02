@@ -7,4 +7,26 @@
 
 
 - **Presentational and Semantic HTML**
+- Presentational HTML focuses on the appearance and style of the content. In the early days of HTML, developers would use elements like the `center`, `big`, and `font` elements. But in modern web development you shouldn't use these types of elements, because of their limitations and negative impact on accessibility and maintainability.
+- The `font` element is a deprecated element used to set the font size and color of the text. Here's an example of a `font` element.
+- The range for the `size` attribute is from `1` to `7`, with `1` being the smallest and `7` being the largest. The default value is `3`, if you don't set the value explicitly.
+- The `center` element is another deprecated element that is used to center the content horizontally within its container. Here's an example of the `center` element that contains text and a paragraph element.
+- The `header` element for defining the header of the document, or section.
+- The navigation section element, `nav`, for sections with navigation links.
+- The `section` element for grouping related information.
+- The `figure` element for illustrations and diagrams.
+
+**Nuanced Semantic Elements**
+- These elements are very closely related to the concepts of presentational and semantic HTML. The idiomatic text element, `i`, was originally used for presentational purposes to display the text in italics. But now, it is frequently used for highlighting alternative voice or mood, idiomatic terms from another language, technical terms, and thoughts.
+- If you do need to emphasize the importance of the text, you can use a similar semantic element called the emphasis element, `em`.
+- The "bring attention to" element, `b`, is commonly used to highlight keywords in summaries, or product names in reviews. Usually, browsers display this text in boldface. Here's an example using the `b` element to highlight product names in this review:
+- 
+  `<dl>`
+  `<dt>Flour</dt>`
+  `<dd>2 cups</dd>`
+  `<dt>Sugar</dt>`
+  `<dd>1/2 cup</dd>`
+  `<!-- <dt>Vegetable Oil</dt>`
+  `<dd>2 tablespoons</dd> -->`
+  `</dl>`
 - 
