@@ -29,4 +29,29 @@
   `<!-- <dt>Vegetable Oil</dt>`
   `<dd>2 tablespoons</dd> -->`
   `</dl>`
+- **Block quotes**
+- In HTML, quoted elements are used to distinguish quoted text from the surrounding content. This gives the quoted text a format that is easy to identify.
+- You should use the block quotation element for representing a section quoted from another source. It's mainly used for extended quotations. If the source of the quote has an address, you can cite it with the `cite` attribute. The value of this attribute should be a valid URL. This is an example of a quote within a block quotation element:
+- Abbreviation in HTML `<abbr>...</abbr>`
+- Address content
+- 
+  `<address>`
+  `<h2>Company Name</h2>`
+  `<p>`
+    `1234 Elm Street<br />`
+    `Springfield, IL 62701<br />`
+    `United States`
+  `</p>`
+  `<p>Phone: <a href="tel:+15555555555">+1 (555) 555-5555</a></p>`
+  `<p>Email: <a href="mailto:contact@company.com">contact@company.com</a></p>`
+  `</address>`
+- **Time element**
+- The `time` element is used to represent a specific moment in time.
+- The `datetime` attribute is used to translate dates and times into a machine-readable format.
+	- This is important, because it helps with search engine results and helps the browser process date and time information more effectively.
+	- The value for the `datetime` attribute must be either a valid year, valid month, valid time, local date, global date, or valid duration string.
+	- 
+	  `<p>`
+	  `The graduation will be on <time datetime="2024-06-15T15:00">June 15</time>`
+	 `</p>`
 - 
