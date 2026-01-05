@@ -1,0 +1,14 @@
+- Select Landscape mode to add a landscape in the scene
+  ![[landscape_mode.png]]
+- Then tweak the settings and hit Create
+- Sculpt tool
+- Sculpt : `Hold SHIF` and draw will provide inverse effect
+- Modes : 
+	- Selection mode
+	- Landscape Mode
+	- Foliage 
+	- Mesh Paint
+	- Modelling 
+	- Fracture
+	- Brush Editing
+	- Animation

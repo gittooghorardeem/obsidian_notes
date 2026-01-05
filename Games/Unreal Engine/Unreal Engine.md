@@ -13,7 +13,9 @@
 - `ALT + D + Select and Drag` : Duplicates selected object
 - `CTRL + Space` : Content Drawer
 - `G` : Goes in to game mode instead of Hitting Play
-- 
+- `END` : Selected Object will be positioned to the ground
+- `+` : BP : after dragging a link will place a summation/increment node 
+- `D + LMB` : BP : Adds a Delay node in the Blueprint
 
 > **Mouse**
 
