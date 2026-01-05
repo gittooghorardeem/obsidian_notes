@@ -1,0 +1,56 @@
+- Launch the Engine with 3rd person Template
+- Add **output log**
+- *List of items :*
+	- An orthographic camera
+	- Walls
+	- Our player paddle 
+	- The ball
+	- Score Zone
+	- The Enemy paddle
+	- A way to score goals 
+	- A basic UI to show score
+	- A win Condition 
+	- Using Buttons
+	- *Objs that to teach us basics of UE systems*
+	- Collisions 
+	- Player input
+	- Overlap Event
+	- Basic Enemy AI
+	- Different Movement Method 
+	- How to use Documentation 
+	- How to Create basic CPP object 
+	- How to Use CPP code in Blueprint
+- Create a Blank Level
+- Add a *Camera Actor* to the blank level
+	- Default projection mode : *Perspective*
+		- Considers the Depth
+	- Change the projection mode : *Orthographic*
+		- Will ignore the Z axis and flattens everything from the top
+		- *Ortho Width* : determines how much space is going to be shown in the camera view (for this project changed it to 4500)
+- Select Camera and set the camera details to `Auto Player Activation > Auto Activate for player > Player 0` : this force the camera perspective to the play the scene mode otherwise it will still project 3rd person player view as we are using 3rd person player Boiler plate
+- Add a *Cube*
+- Set the position of both Cube and Camera to `x = 0, y = 0, z = 0`
+- Select the camera and pin preview, so that the camera preview does not go away when any other object is selected
+- Make Left-Right-Top-Bottom walls with the cube 
+- Change the color of the walls 
+	- Select wall and select in details section `Details > StaticmeshComponent`
+- Select a Wall and create a Blueprint on top of it and copy 4 and replace the existing 3 walls with the `BP_Wall`
+- **C++** - make the actual mechenics , what you want to see, all the interactions based on the design perspective
+- **Blueprints** : Blueprints to implements those design decisions constructed using the C++ 
+
+> **C++**
+
+- Create a C++ class
+- Types of parent class : 
+	- *None* : Empty C++ with default constructor and destructor 
+	- *Character* : A character is a type of pawn that includes the ability to walk around 
+	- *Pawn* : A Pawn is an actor that can be 'possessed' and receive input from a controller 
+	- *Actor* : An actor is an object that can be spawner in the world
+- For the Pong project we will create a *Pawn* class for **Paddle**
+	- two files will be created 
+		- **.cpp** : C++ file, actual code file, where all the things are coded and implements all the things have been said in the .h file
+		- **.h** : Header file, which is a contract of what is allowed and  has been done in the .cpp file. this is a Public file 
+- **Visual C++ 2022**
+	- *Keyboard shorts*
+		- `CTRL + SHIFT + S` : Save
+		- `CTRL +SHIFT + B` : Build  
