@@ -1,0 +1,20 @@
+- `Variable +` : to create new variable 
+- Variable Types : 
+	- Boolean 
+	- Byte
+	- Integer
+	- Integer64
+	- Float
+	- Name
+	- String
+	- Text
+	- Vector
+	- Rotator 
+	- Transform 
+- Custom Variables can be dragged and dropped in the Blueprint
+	- `get MyVariable`
+	- `set Myvariable`
+	- `CTRL + Drag n Drop` : *get MyVariable*
+- `if`: for Boolean Variable loads `Branch` node
+- `Vector` type variable : a *Struct*
+- 
