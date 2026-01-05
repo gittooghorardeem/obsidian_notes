@@ -1,0 +1,7 @@
+- Visual Code
+	- Plugins : 
+		- Live Preview
+		- Prettier 
+		- vscode-icons 
+- https://www.submarinecablemap.com/
+- 
