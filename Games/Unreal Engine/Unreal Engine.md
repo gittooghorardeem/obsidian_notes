@@ -16,6 +16,7 @@
 - `END` : Selected Object will be positioned to the ground
 - `+` : BP : after dragging a link will place a summation/increment node 
 - `D + LMB` : BP : Adds a Delay node in the Blueprint
+- `Select Node + mouse pointer + CTRL + D` : BP : Duplicates the selected node
 
 > **Mouse**
 

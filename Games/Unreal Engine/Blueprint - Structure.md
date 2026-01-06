@@ -1,1 +1,18 @@
+- Special types of Variables (set of variables)
+- Create a *Structs* folder in the content folder
+- `RMB > Blueprints > Structure` and create a Structure 
+- Struct : Wrap a bunch of Data and Methods in a single unit 
+	- A collection of Variables 
+	- Cannot have Functions for Structs in Blueprints
+- Making a 2D vector variable for the Struct "*MyStruct*"
+- Back in Level Blueprint 
+	- `RMB > MyStruct`  shows options
+		- *Make MyStructs* : Makes a Mustructs node from its member fields
+		- *Break MyStructs* : Breaks My Structs in its member fields
+		- *Set members in My Struct* : adds a node that modifies MyStruct 
+- Creating a Variable in the Level Blueprint we can use MyStruct as *Data Type* 
+	- *Split variable* shows the variable types associated int he Struct
+	- One variable holds multiple variables within it
+	- Structs variable types can be heterogeneous 
+- Avoid removing Variables from Structs in *Blueprints*
 - 

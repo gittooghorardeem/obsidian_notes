@@ -1,0 +1,7 @@
+- Create e Enum folder in the Content Folder
+- `RMB > Blueprint > Enumeration` > *MyEnum*
+- Enum is a List of Values, perform login depending on this list 
+- Creating a Variable in the Level Blueprint we can use MyEnum as *Data Type* 
+- Internally, Enum is just a number
+	- Number between 0 - 256
+- 
