@@ -17,6 +17,8 @@
 - `+` : BP : after dragging a link will place a summation/increment node 
 - `D + LMB` : BP : Adds a Delay node in the Blueprint
 - `Select Node + mouse pointer + CTRL + D` : BP : Duplicates the selected node
+- `CTRL + Drag n Drop` : BP : *get MyVariable*
+- `ALT + Drag n Drop`: BP :*set MyVariable*
 
 > **Mouse**
 
@@ -44,4 +46,8 @@
 - `~` : to open the command window
 - `stat fps` : displays the FPS in the view port
 - `t.max fps ###` : Set FPS limit 
-- 
+
+> **Misc**
+
+- **Pascal** case for any types of naming convention (Good Practice)
+	- MyFunctionForJumOfTheCliff

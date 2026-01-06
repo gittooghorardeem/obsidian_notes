@@ -15,6 +15,7 @@
 	- `get MyVariable`
 	- `set Myvariable`
 	- `CTRL + Drag n Drop` : *get MyVariable*
+	- `ALT + Drag n Drop`: *set MyVariable*
 - `if`: for Boolean Variable loads `Branch` node
 - `Vector` type variable : a *Struct*
 - 
