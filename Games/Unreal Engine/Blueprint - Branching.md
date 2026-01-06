@@ -1,0 +1,4 @@
+- `B + LMB` : Brings up a Branch Node
+- Branch node takes up a Boolean
+- Can be search using *Branch* or *if*
+- 

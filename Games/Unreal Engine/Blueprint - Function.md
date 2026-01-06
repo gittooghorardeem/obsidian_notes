@@ -6,4 +6,10 @@
 - variable as input needs to be added in the Event Graph
 - Adding *Output* to the Function will add a **Return Node** in the Function Graph
 - Output can have empty return node as well
+- **Local Variables**
+	- Only exists within the function
+- `Delay` cannot be implemented inside a Function
+- Cannot have Latent node inside a BP
 - 
+
+![[myFunction.png]]

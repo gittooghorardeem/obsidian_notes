@@ -1,0 +1,2 @@
+- *Switch* can have multiple conditional output pins 
+- 

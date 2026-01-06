@@ -1,0 +1,2 @@
+- Collapsing a group of nodes in a single Collapse Graph. sort of grouping 
+- 

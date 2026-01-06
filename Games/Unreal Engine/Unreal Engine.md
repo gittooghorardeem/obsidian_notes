@@ -19,6 +19,9 @@
 - `Select Node + mouse pointer + CTRL + D` : BP : Duplicates the selected node
 - `CTRL + Drag n Drop` : BP : *get MyVariable*
 - `ALT + Drag n Drop`: BP :*set MyVariable*
+- `Select node/s + C` : BP : Add Comments for the group of node
+- `B + LMB` : BP : Loads Branch Node
+- 
 
 > **Mouse**
 

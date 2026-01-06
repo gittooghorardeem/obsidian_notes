@@ -1,0 +1,7 @@
+- Macros in BP acts mode like Functions 
+- Macro loads with default `input` and `output` nodes
+	- By default there are  no input and output pins for these nodes.
+	- But dragging and dropping pin on the nodes adds pin to the Input and output nodes. 
+- `Sequence` : having parallel workflow
+- in Macros multiple `return nodes` can be added
+- 
