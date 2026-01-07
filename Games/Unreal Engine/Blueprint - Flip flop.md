@@ -1,0 +1,2 @@
+- Alternate between A and B outputs
+- 

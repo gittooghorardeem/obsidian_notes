@@ -1,0 +1,4 @@
+- Easier in BP than c++
+- `For each` loop another variation
+- `For Loop with break` another variant
+- ![[forLoopWithBreak.png]]

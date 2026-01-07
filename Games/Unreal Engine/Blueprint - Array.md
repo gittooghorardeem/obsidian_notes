@@ -1,0 +1,10 @@
+- *Variables* can be modified in to 
+	- Single
+	- Array
+	- Set
+	- Map
+- Arrays are Homogenous (only one data type for all the array components)
+- To iterate an Array, we will need  `For Each` loop
+- UE does not provide **Linked List structure**
+- Structs can also be used as Array
+- 
