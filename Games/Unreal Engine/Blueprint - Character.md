@@ -1,0 +1,22 @@
+- Create a Character class `BP_Character`
+- Every Actor is madeup of several components
+- `Default Character` :
+	- `world settings > Game mode > Game mode override >> Game mode`
+	- Add a new BP class `Game mode base` as *BP_Gamemode*
+	- Select `world settings > Game mode > Game mode override >> BP_Gamemode`
+	- then under *GameModeOverrride*
+		- update `Default Pawn Class` => `BP_Character`
+- Add a camera component to the `BP_Character`
+- Add Movement code to the BP_Character event graph
+
+- Adding Movement to `BP_Character`
+- **Brute Force Method**
+	- add `W keyboard`  in the event graph
+	- add `add movement input` : this needs to be called every frame to work
+	- add `get actor forward vector`
+	- add `get acotr right vector`
+	- ![[CharacterMovement_BruteForce.png]]
+- **Elegant method**
+	- Go to `Project Settings > Engine > Input > Axis Mapping` >>
+		- `moveForward > w scale 1.0 > s scale -1.0`
+	- ![[CharacterMovement_elegant_projectSettings.png]]![[CharacterMovement_elegant_evetnGraph.png]]
