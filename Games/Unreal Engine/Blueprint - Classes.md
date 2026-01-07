@@ -1,0 +1,26 @@
+- Create a Blueprints Folder in the Content Folder
+- `RMB > Blueprint Class > `
+- Create a **Object** Class called `Vector2d`
+- Object Class is not an actor, cannot be dragged in to a Level
+- wont have `beginPlay` node
+- `custome event` nodes, gonna use a lot
+- add `X` and `Y` variables to the class
+- X and Y variables not to be directly accessible (Data security)
+- in Game `level Event graph > Construct object From Clas > add vector2d > return value of the node > Promote to Variable` : here Construct vector2d is an *Object*
+	- it creates a new variable
+- Set *Vector2d* class variables as `Private`
+	- this will prevent calling `Set` functionality 
+- Add `getX` and `getY` functions to the vector2d class
+	- make them Pure function
+- Add `Return Node` to return the X and Y values
+- Now in event graph, The Vector2d class object will able to get the values of X and Y
+- added functions : 
+	- getX : `return node`
+	- getY : `return node`
+	- setX : `set x > return node`
+	- setY : `set y > return node`
+	- getVector2d : `get x > get y > return node`
+	- setVector2d : `ste x> set y > return node`
+	- printVector2d : `print string node > get outer object (self as input) > append > get x > get y > `
+	  
+![[printVector2d.png]]

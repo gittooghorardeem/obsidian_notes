@@ -26,6 +26,8 @@
 > **Mouse**
 
 - `RMB + W/A/S/D` : Move around freely in the viewport
+- `ALT + LMB` : Breaks Node links
+- 
 
 > **Navigation**
 
