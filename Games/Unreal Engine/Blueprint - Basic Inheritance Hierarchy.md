@@ -1,0 +1,7 @@
+- **Object** : Most simple type of class to instantiate object, the simplest type
+	- **Actor** : An object that has transform attributes and placed in a level
+		- **Controller** : a class which has the functionality to take player input
+			- **Player Controller** :  a controller which belongs to a actual player
+		- **Pawn** :  Pawn is always possessed by a Player controller, and can be place in the level (*possess function* )
+			- **Character** :  a lot of functionality built in 
+- 

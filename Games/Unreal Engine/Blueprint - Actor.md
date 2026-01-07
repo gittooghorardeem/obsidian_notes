@@ -13,4 +13,7 @@
 	- `DefaultSceneRoot` is root component
 	- Add an new component (`static mesh`) and drag and dropping it on `DefaultSceneRoot` will replace and remove it
 	- after replacing, `Static Mesh` becomes the Root component
-- 
+- Enable `simulate physics` for the static mesh
+- add a `Sphere collision` to the Static mesh
+	- when ever the collision bond gets overlapped, then the `Event ActionBeginOverlap` will trigger
+	- 

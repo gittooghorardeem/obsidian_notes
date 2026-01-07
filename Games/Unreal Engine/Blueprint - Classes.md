@@ -24,3 +24,9 @@
 	- printVector2d : `print string node > get outer object (self as input) > append > get x > get y > `
 	  
 ![[printVector2d.png]]
+
+- Types of parent class : 
+	- *None* : Empty C++ with default constructor and destructor 
+	- *Character* : A character is a type of pawn that includes the ability to walk around 
+	- *Pawn* : A Pawn is an actor that can be 'possessed' and receive input from a controller 
+	- *Actor* : An actor is an object that can be spawn in the world

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Games/Unreal Engine/Blueprint - Actor.md",
+                "file": "Games/Unreal Engine/Blueprint - Character.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Blueprint - Actor"
+              "title": "Blueprint - Character"
             }
           }
         ]
@@ -168,9 +168,13 @@
   },
   "active": "5805137fec4dd183",
   "lastOpenFiles": [
-    "Games/Unreal Engine/Unreal Engine.md",
-    "Games/Unreal Engine/Blueprint - Actor.md",
+    "Games/Unreal Engine/Blueprint - Basic Inheritance Hierarchy.md",
+    "Games/Unreal Engine/Blueprint - Character.md",
+    "Games/Unreal Engine/Blueprint - Casting.md",
     "Games/Unreal Engine/Blueprint - Classes.md",
+    "Games/Pong/Pong - Unreal engine.md",
+    "Games/Unreal Engine/Blueprint - Actor.md",
+    "Games/Unreal Engine/Unreal Engine.md",
     "printVector2d.png",
     "Games/Unreal Engine/Object Oriented Programming.md",
     "Games/Unreal Engine/Blueprint - Flip flop.md",
@@ -204,12 +208,8 @@
     "Udemy/Web Development",
     "Udemy",
     "SQA/Intvw/Common Playwright interview questions.md",
-    "Project Management/PMI institute.md",
     "Project Management",
-    "MISC/Mac OS - Xcode - Unreal Engine installation.md",
     "MISC",
-    "Games/Unreal Engine/Creating Landscape.md",
-    "Games/Pong/Pong - Unreal engine.md",
     "Games/Unreal Engine",
     "Games/Pong",
     "Games",
