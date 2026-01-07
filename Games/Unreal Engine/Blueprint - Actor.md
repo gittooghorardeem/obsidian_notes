@@ -1,0 +1,16 @@
+- Actor class can be placed in the game level map
+- 3 tabs for actor class
+	- Viewport
+	- Construction Script
+	- Event graph
+- `Beginplay` and `tick` nodes are available for the Actor class
+- Create a Actor class '*BP_Pickup*'
+	- This is derived from parent class *Actor* which is written in C++
+- Drag n Drop BP_Pickup in the game level map incrementally adds items in the level
+- `Event begin Play` : is called when the actor is instantiated 
+- `spawn actor from class` : to add actor in the game level 
+- Actor BP : `DefaultSceneRoot` is not necessary 
+	- `DefaultSceneRoot` is root component
+	- Add an new component (`static mesh`) and drag and dropping it on `DefaultSceneRoot` will replace and remove it
+	- after replacing, `Static Mesh` becomes the Root component
+- 
