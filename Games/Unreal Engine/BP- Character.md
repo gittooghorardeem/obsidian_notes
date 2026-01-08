@@ -63,3 +63,13 @@
 - ![[Mouse_sentivity_optimized.png]]
 
 - **Player Controller** is always created **BEFORE** the *Character* spawns
+
+> **Game Instance class**
+
+- This class referring to the whole game application 
+- `Event init` node : This is when the *Game* starts unlike `BeginPlay` node
+
+> **What if the PlayerController is not valid**
+
+- add `is Valid` (Macro ?) node beside PCref variable
+- ![[validity_check.png]]
