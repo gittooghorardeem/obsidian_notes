@@ -21,7 +21,7 @@
 - `ALT + Drag n Drop`: BP :*set MyVariable*
 - `Select node/s + C` : BP : Add Comments for the group of node
 - `B + LMB` : BP : Loads Branch Node
-- 
+- `F8` : Unpossess the character in the Gameplay mode 
 
 > **Mouse**
 
