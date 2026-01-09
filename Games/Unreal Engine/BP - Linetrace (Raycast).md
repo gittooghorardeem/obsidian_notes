@@ -1,0 +1,9 @@
+- Linetrace : a Function to draw a Line From *Point A* to *Point B* , if anything intersects the line between Point A and Point B, we will get a Hit result  
+- `Left Mouse Button`
+- `BP_Character` mesh camera `Get World Location` and `Get Forward Vector` `Line Trace by Channel`
+- `Get World Location` return value for Start position
+- Multiply both return float value of `Get Forward vector`
+- Sum it up with the return value of `Get World location` the summation as End Position
+- `Draw Debug Sphere`
+- For multi camera setup or multi camera FOV
+- `Get Player camera Manager` > `Get Actor Location`
