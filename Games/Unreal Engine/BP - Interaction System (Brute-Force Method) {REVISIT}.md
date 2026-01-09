@@ -1,0 +1,4 @@
+- Create an Actor class : `InteractionActor`
+- Make it root component 
+- Add a Sphere collision component 
+- 
