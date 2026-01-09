@@ -1,0 +1,8 @@
+- `BP_Pickup` : Check 
+	- *Instance Editable*
+	- *Expose on Spawn*
+- `BP_Character` > *Polling for reference*
+	- `Spawn Actor From Class` > `BP_Pickup`
+- `Target Point` in Selection mode to get a reference point where we want to spawn our characters
+- `BP_Pickup` *health points* can also be edited from the Details section of Selection mode, for individual instances
+- 

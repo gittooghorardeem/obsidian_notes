@@ -7,3 +7,4 @@
 	- `Distroy Actor`
 	- In Play mode when character is close to an pickup body press `interact F` key, it will destroy the pickup body ingame
 	- 
+	- ![[Action_map_nearbyPickup 1.png]]
