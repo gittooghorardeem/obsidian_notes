@@ -1,0 +1,9 @@
+- `Project Settings > Engine > Inputs`
+	- `Action Mapping` - *Interact*
+	- `Event Actor BeginOverlap` Cast to `BP_Pickup`
+	- Promote to Variable : `NearbyPickup`
+	- `Event Actor EndOverlap` cast to `BP_pickup` if `==` `NearbyPickup` then `Branch` `set NearbyPickup`
+	- `Input Action Interact` > `Get NearbyPickup` (*Convert to validated GET*)
+	- `Distroy Actor`
+	- In Play mode when character is close to an pickup body press `interact F` key, it will destroy the pickup body ingame
+	- 
