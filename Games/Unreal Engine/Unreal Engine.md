@@ -22,12 +22,18 @@
 - `Select node/s + C` : BP : Add Comments for the group of node
 - `B + LMB` : BP : Loads Branch Node
 - `F8` : Unpossess the character in the Gameplay mode 
+- `Select Obj + Ctrl + B` : Opens the content drawer where the object ins located
+- `Select obj + H` : Hides the opject
+- `Ctrl + H` : Unhide All hidden Objects
+- `Alt + Select Obj + Drag` : Obj Duplicate Shortcut
+- `L + LMB` : BP - Viewport : Rotate the Sun
+- 
 
 > **Mouse**
 
 - `RMB + W/A/S/D` : Move around freely in the viewport
 - `ALT + LMB` : Breaks Node links
-- 
+- `RMB + Q/E` : Move view up and down
 
 > **Navigation**
 

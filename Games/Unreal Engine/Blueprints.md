@@ -17,4 +17,8 @@
 	- ![[split_struct_pin.png]]![[split_struct_pin_expanded.png]]
 - If can add <= or >= then node by just searching `<=` or `>=`
 - Data type can be changed by `RMB` on the data type input pins
+
+> **Event Graphs**
+
+- **Red Nodes** : Events
 - 
