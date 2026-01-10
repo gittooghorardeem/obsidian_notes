@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Games/Unreal Engine/Blueprints.md",
+                "file": "Games/UE-Beginner Game/MyFirstFPSProject - BP Focussed.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Blueprints"
+              "title": "MyFirstFPSProject - BP Focussed"
             }
           }
         ]
@@ -168,9 +168,10 @@
   },
   "active": "5805137fec4dd183",
   "lastOpenFiles": [
-    "Games/UE-Beginner Game/MyFirstFPSProject - BP Focussed.md",
     "Games/UE-Beginner Game/Beginner Game Tutorial.md",
+    "Games/UE-Beginner Game/MyFirstFPSProject - BP Focussed.md",
     "Games/Unreal Engine/Unreal Engine.md",
+    "Games/Unreal Engine/Blueprints.md",
     "Games/Unreal Engine/Blueprint - UI.md",
     "Games/UE-Beginner Game",
     "Games/Untitled.md",
@@ -197,7 +198,6 @@
     "Games/Unreal Engine/BP- Character.md",
     "Games/Unreal Engine/BP- Casting.md",
     "Games/Unreal Engine/BP- Branching.md",
-    "Games/Unreal Engine/BP- Basic Inheritance Hierarchy.md",
     "validity_check.png",
     "Mouse_sentivity_optimized.png",
     "Mouse_sentivity_optimized_from_mouse_movement.png",

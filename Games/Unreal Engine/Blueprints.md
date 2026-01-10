@@ -20,5 +20,11 @@
 
 > **Event Graphs**
 
+- Move the Character BP to the top tool bar
+	- Press Play
+	- move the game view to a side
+	- Game interactions will highlighted in the character BP in real time (THIS IS SOOOO COOL!!!!)
 - **Red Nodes** : Events
+	- can be linked to other BPs
+	- 
 - 

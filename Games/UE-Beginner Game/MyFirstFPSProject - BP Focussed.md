@@ -1,2 +1,30 @@
 - Create a 1st person Game Template 
-- 
+- Copy the Game Assets from the Game Asset project by Migrating the Folders to MyFirstFPSProject project.
+- Create a BP Class in `Content > FirstPerson > Blueprints`
+- Create an Actor Class `BP_Target`
+- Add the *StaticMesh* asset tot he `BP_target`
+- Add and Event `On Collision Hit` > `On Component Hit` node
+- `On Component Hit` cast to `BP_FirstPersonProjectile` so that hit is only registered when Bullet hits the targer
+- Create a *Game Mode* name `BP_GM_TargetGame`
+- Game Mode `BP_GM_TargetGame` details : 
+	- *Default Pawn Class* : `BP_FirstPersonCharacter`
+	- *HUD* : `FirstPersonHUD`
+- In the WorldSettings change 
+	- `Game Mode > GameModeOverride => BP_GM_TargetGame`
+- in `BP_GM_TargetGame`
+	- add an event `AddScore`
+	- Add a Variable `CurrentScore` (int)
+		- `++` incremental
+- in `BP_Target
+	- add `GameMode` Cast to `BP_GM_Targetgame`
+	- From `BP_GM_Targetgame` link to `AddScore` event
+	- Add a variable `isHit` (bool) (false)
+	- `Get isHit` link to `if/Branch`
+	- `Branch false` link to `Set isHit`
+		- set `IsHit` **True**
+		- link to Cast to `BP_GM_TargetGame`
+	- ***ANOTHER WAY***
+	- `Get isHit` link to `Not Boolean`
+		- `Not Boolean` links to `Branch True` then link to `set isHit`
+
+Start from `56:49`

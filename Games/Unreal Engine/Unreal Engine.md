@@ -23,10 +23,13 @@
 - `B + LMB` : BP : Loads Branch Node
 - `F8` : Unpossess the character in the Gameplay mode 
 - `Select Obj + Ctrl + B` : Opens the content drawer where the object ins located
-- `Select obj + H` : Hides the opject
+- `Select obj + Ctrl + E` : Open select objects Event graph in Blueprints
+- `Select obj + H` : Hides the objects
 - `Ctrl + H` : Unhide All hidden Objects
 - `Alt + Select Obj + Drag` : Obj Duplicate Shortcut
 - `L + LMB` : BP - Viewport : Rotate the Sun
+- `SHIFT + F!` : Game Play mode : releases the mouse cursor from the game View 
+- `Ctrl + LMB` : BP - Event graph : reconnect pin / link
 - 
 
 > **Mouse**
