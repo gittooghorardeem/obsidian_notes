@@ -27,4 +27,39 @@
 	- `Get isHit` link to `Not Boolean`
 		- `Not Boolean` links to `Branch True` then link to `set isHit`
 
-Start from `56:49`
+~~Start from `56:49`~~
+
+**Unreal Motion Graphics UI Designer (UMG)**
+
+- *Content folder* create 
+	- `User Interface > Widget Blueprint > User Widget` => `BP_WBP_Ui`
+	- Add *Canvas* panel
+	- Add *Text* > This adds an Option wheel to the canvas - *Anchor* 
+		- Add *Top Left* - Anchor Top Left
+		- Add *Top Right* - Anchor Top Right (*Example*)
+		- Add *Center* - Anchor Center (*Example*)
+		- Anchoring  makes the UI viewport Responsive
+- `BP_GM_TargetGame` 
+	- Add `Create Widget` => `BP_WBP_Ui`
+	- Return Value for `BP_WBP_Ui` as `Add to Viewport`
+- `BP_WBP_Ui`
+	- Rename with **Score:**
+	- Rename the base Text name to  `ScoreText`
+		- Tag it as *Variable*
+	- Event graph : 
+	- Add the `ScoreText` variable
+	- Link with `Set Text (Text)`
+	- `Even BeginPlay` is **NOT** available for Widgets
+	- Add `Event Construct` and link with `SetText(Text)` - this will run as soon as the widget gets created
+	- Add a Custom Event `UpdateScore`
+	- Cast to `BP_GM_TargetGame` > Get `CurrentScore` link to *In text* of `Settext`
+- `BP_GM_TargetGame`
+	- new Variable `UserInterface` type `Object variable` of `BP_WBP_Ui`
+	- `Set UserInterface` take in return value of `Create BP_WBP_Ui Widget`
+	  ![[Screenshot 2026-01-11 135812.png]]
+- **Shortcut process**
+	- `Create BP_WBP_Ui Widget` return value `promote to Variable` > `Set UserINterface`
+- Have the word *Score* visible in front of the Score points
+- `BP_WBP_Ui`
+	- add `Append string` to `SetText`
+	  ![[appendScore.png]]
