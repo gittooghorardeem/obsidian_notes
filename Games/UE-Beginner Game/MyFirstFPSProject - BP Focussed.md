@@ -63,3 +63,22 @@
 - `BP_WBP_Ui`
 	- add `Append string` to `SetText`
 	  ![[appendScore.png]]
+
+~~Start from `1:08:38`~~
+
+- **Clean up**
+	- Remove `Get Game mode`,  `Cast to ...` and `Current Score`
+	- Select custom event `UpdateScore`
+	- Add an int input `CurrentScore`
+	- `CurrentScore` input variable will appear in `BP_GM_TargetGame` > `UpdateScore` event node
+
+- **Max Score**
+	- `BP_GM_TargetGame`
+	- Create variable `MaxScore`
+	- add `All Actors of Class` event > `BP_Target` link with `BeginPlay`
+	- got to `BP_WBP_Ui`
+	- new input variable `MaxScore` and add two new pins for `Append`
+	- return to `BP_GM_TargetGame`
+	- Add `MaxScore` variable to `UpdateScore` custom Events
+- **Congratulation msg**
+	- `UpdateScore` > if `CurrentScore` == `MaxSocre`

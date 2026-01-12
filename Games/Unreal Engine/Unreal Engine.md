@@ -30,7 +30,7 @@
 - `L + LMB` : BP - Viewport : Rotate the Sun
 - `SHIFT + F!` : Game Play mode : releases the mouse cursor from the game View 
 - `Ctrl + LMB` : BP - Event graph : reconnect pin / link
-- 
+- `Alt + M + P` : Gameplay Simulation
 
 > **Mouse**
 
