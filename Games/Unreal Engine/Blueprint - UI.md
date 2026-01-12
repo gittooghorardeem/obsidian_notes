@@ -1,0 +1,6 @@
+- Use Widget Blueprints
+- Create  *UI Folder* in Content 
+- Create *HUD folder*
+- Create a Custom Event `Create HUD` in `BP_PlayerControler`
+- add a `Progress Bar` in the canvas named `healhBar`
+- 
