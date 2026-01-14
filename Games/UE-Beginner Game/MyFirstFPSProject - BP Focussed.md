@@ -111,4 +111,17 @@
 	4. When target is hit then `Update Score` will compare *Current score* with *Max Score*
 	5. If *Current Score* == *Max Score* player wins
 	6. Stops Player movement and Restart the game
-3. 
+
+**Timer**
+-  `BP_GM_TargetGame`
+- `BeginPLay` >> `UpdateScore` >> `Set Timer by Event`
+- `Set Timer by Event` > Custom Event `DecreaseCount`
+- Create a Variable `Time`
+- `Time` -- `DecreaseCount`
+- `BP_WBP_Ui` > Custom Event `UpdateTime`
+- Add Timer in the design and variable `TimerText`
+- Add an input `NewTime` for `UpdateTime` event
+-  **NEED TO GO THROUGH THE TUT VID**
+
+
+> **Custom Weapon**
