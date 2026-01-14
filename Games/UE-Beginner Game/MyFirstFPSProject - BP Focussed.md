@@ -80,5 +80,35 @@
 	- new input variable `MaxScore` and add two new pins for `Append`
 	- return to `BP_GM_TargetGame`
 	- Add `MaxScore` variable to `UpdateScore` custom Events
-- **Congratulation msg**
+- **Congratulation msg** and stops the game "**Game Over**"
 	- `UpdateScore` > if `CurrentScore` == `MaxSocre`
+	- Create another Widget BP for end screen `WBP_EndScreen`
+	- Add a **Restart** button 
+	- add an `On Click` event to the button
+	- link `Open Level (by Object Reference)` > `FirstPersonMap`
+	- Go to `BP_BM_TargetGame`
+	- After the *You Won* message, link with `Set Input mode UI Only` node
+	- Link `Create WBP End Screen Widget` to `in widget to focus`
+		- Link `Get PLayer Controller` to `Player Controller`
+		- another link from `Get Player Controller` return value *show mouse* `Set Mouse Cursor`
+		- *Check* `Show Mouse Cursor`
+		- another link from `Get Player Controller` `Set ignore Move Input`
+		- *Check* `New Move Input`
+	- Link to `BeginPlay` evet
+		- `get Player Controller` return value `Set input mode game only`
+
+> **Summarize So far**
+
+1. 1st created targer Blue Print `BP_Targer`
+	1. Projectile Hitting the mesh
+	2. If hit add Score![[BP_Target.png]] to the *Game Mode* > `BP_GM_TargetGame`
+	   
+	   
+2. Game Mode `BP_GM_TargetGame`
+	1. Gets the maximum target available in the level `Get All Actors of Class` > `BP_target`
+	2. Based on the Target Count set *Max score*
+	3. Add that in the user interface Widget BP `BP_WBP_Ui` and update score in `BP_WBP_Ui`> `Update Score`
+	4. When target is hit then `Update Score` will compare *Current score* with *Max Score*
+	5. If *Current Score* == *Max Score* player wins
+	6. Stops Player movement and Restart the game
+3. 
