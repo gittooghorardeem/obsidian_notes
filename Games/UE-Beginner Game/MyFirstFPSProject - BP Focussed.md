@@ -125,3 +125,21 @@
 
 
 > **Custom Weapon**
+
+~~Start from : `1:43:30`~~
+
+- `Content` > `FirstPerson` > `Blueprints` > `BP_FirstPersonCharacter`
+- Create a Separate BP class for the Weapon. Delete the Weapon from the FirstPersoCharacter
+- Clear Template Weapon properties from `EventGraph`
+- Create a New Actor Class `BP_Rifle`
+- Use the gun and scope from the template
+- `BP_FirstPersonCharacter`
+	- `EventBeginPLay` > ... > `Spawn Actor from Class` > `BP_Rifle`
+	- `SpawnActorBP_Rifle` : `Spawn Transform` > `Arms`
+	- `Arms` > `Get World Traansform`
+		- Always Spawn, Ignore Collision
+	- `SpawnActorBP_Rifle` > `Attach component to Component` > *Ayakashi_Sniper*
+	- *Socket Name* : `GripPoint` and `Snap to Target` for all
+	- **NEED TO GO THROUGH THE TUT VID**
+
+Start From `2:08:54`
