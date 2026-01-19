@@ -142,4 +142,35 @@
 	- *Socket Name* : `GripPoint` and `Snap to Target` for all
 	- **NEED TO GO THROUGH THE TUT VID**
 
-Start From `2:08:54`
+~~Start From `2:08:54`~~
+
+**UE physics (Chaos Physics)**
+
+- Select **Fracture mode**
+- Make the selected objects *Rotation to 0 0 0* and *Scale to 1 1 1* 
+- Select a target object and Create a new *Geometry Collection* `GC_BP_Target4`
+- `Uniform` and 3 layers of Fracture
+- Go back to *Selection mode* and in Object details section *unCheck* `Show Bone Colors` under **General**
+- Open the `GC_BP_Target4` settings
+	- *Minimum Mass Clamp* = 1.0
+	- *Mass as Density* = *Uncheck*
+- Add force to the `BP_Bullet`
+	- Add a **Force Field** to the bullet object
+	- Before `Destroy Actor` node add `Spawn Actor by Class` > Class `FS_Master_Field`
+	- *Location* from `Break Hit Result` to *spawn transform* for `SpawnActor FS Master Field`
+	- Add `CE Trigger` (*FS Master Field has a ~1 sec delay after hit, this is to counter it*)
+	- Another `Destroy Target` node for the *Force Field* 
+	- Replace all the target objects with the `GC_BP_Target4`
+		- Delete the exiting target object from `BP_target` view port
+		- add `GeometryCollection`
+		- Under `Chaos Physics > Rest Collectoon` add `GC_BP_Target4`
+
+> **Environment**
+
+- Follow the environment design tutorial : 
+	- https://youtu.be/k-zMkzmduqI?si=wP-zLofxJi_3u21D
+- From UE samples page, download Electric **Dream Environment Level Project**
+- Open `Electric Dream Samples`
+- 
+
+

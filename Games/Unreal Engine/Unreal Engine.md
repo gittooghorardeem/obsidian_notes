@@ -33,6 +33,9 @@
 - `Alt + M + P` : Gameplay Simulation
 - `Ctrl + L` : In game viewport move the position of the sun
 - `L + LMB` : BP Viewport move the lighting
+- `Alt + S` : Simulate the game without playing it
+- `Ctrl + Shift + H` : Shows framerate
+- `F10` : Fullscreen editor
 - 
 
 > **Mouse**
