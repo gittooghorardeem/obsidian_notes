@@ -41,7 +41,9 @@
 > **Mouse**
 
 - `RMB + W/A/S/D` : Move around freely in the viewport
-- `ALT + LMB` : Breaks Node links
+- `ALT + LMB` : 
+	- Breaks Node links
+	- Rotate around in Viewport
 - `RMB + Q/E` : Move view up and down
 
 > **Navigation**
