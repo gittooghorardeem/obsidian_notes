@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Games/Tut - My3DPlatformer/My3DPlatformaer.md",
+                "file": "Media Editing/DaVinci Resolve/Beginner Tutorial/Beginner's Guide.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "My3DPlatformaer"
+              "title": "Beginner's Guide"
             }
           }
         ]
@@ -168,8 +168,13 @@
   },
   "active": "5805137fec4dd183",
   "lastOpenFiles": [
-    "Games/Tut - My3DPlatformer/YT Tutorial.md",
+    "Media Editing/DaVinci Resolve/Beginner Tutorial/DaVinci Resolve.md",
+    "Media Editing/DaVinci Resolve/Beginner Tutorial/Beginner's Guide.md",
     "Games/Tut - My3DPlatformer/My3DPlatformaer.md",
+    "Media Editing/DaVinci Resolve/Beginner Tutorial",
+    "Media Editing/DaVinci Resolve",
+    "Media Editing",
+    "Games/Tut - My3DPlatformer/YT Tutorial.md",
     "Games/Unreal Engine/UE - Nodes.md",
     "Games/Tut - My3DPlatformer",
     "Games/Unreal Engine/Unreal Engine.md",
@@ -201,8 +206,6 @@
     "Games/Unreal Engine/BP- Macros.md",
     "Games/Unreal Engine/BP- Function.md",
     "Games/Unreal Engine/BP- For loop.md",
-    "Games/Unreal Engine/BP - Flip flop.md",
-    "Games/Unreal Engine/BP- Enumerations.md",
     "validity_check.png",
     "Mouse_sentivity_optimized.png",
     "Mouse_sentivity_optimized_from_mouse_movement.png",
@@ -211,9 +214,6 @@
     "Udemy/Web Development/Full Stack Web Development Bootcamp",
     "Udemy/Web Development",
     "Udemy",
-    "Project Management",
-    "MISC",
-    "Games/Unreal Engine",
     "Obsidian_Notes/GIT/Untitled.canvas"
   ]
 }
