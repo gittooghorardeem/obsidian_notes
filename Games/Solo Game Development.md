@@ -1,0 +1,49 @@
+- YT : https://youtu.be/my8euq9bzFQ?si=ob1iqY6_z_DdQVRj
+- Yt Channels 
+	- [Dog's Dream](https://www.youtube.com/@dogsdreamGames/featured)
+	- [jevinscherriesgamedev](https://www.youtube.com/@jevinscherriesgamedev/videos)
+
+--- --- ---
+- Platform to begin with
+	- Steam 
+	- Mobile 
+- Type of game
+	- Fun to make VS Fun to Play
+		- Start with the Player not personal
+		- SO *Fun to Play*
+- Market Saturation 
+	- Blue Ocean (Uncommon Game market) VS Red Ocean (Stablished Game Genre)
+		- Best path is Blue Ocean
+- Project Scope Manageable 
+	- 5 to 6 hrs gameplay MAX
+	- Replayablility  
+- Game Design Document (GDD)
+	- Evolve as the project progresses 
+		- Confluence 
+		- Notion
+		- Miro
+- Solo Project 
+	- If employed : Try to complete within a Year
+- Engine 
+	- 2d Game : Unity, Godot
+	- 3d. Top down : Unreal Engine
+- Create a Prototype
+- Version Control System (VCS)
+	- GIT (Free)
+	- HelixCore
+- Game Assets
+	- Utilize Assets 
+		- Sources 
+			- UE, Unity : FAB
+			- Unity : Unity Asset Stores
+			- 3D models : TurboSquid, SketchFAB, ArtStation
+			- 3D Animation : Mixamo
+			- Sounds : Pond5, Epidemic Sound
+			- UI Elements : Noun Project
+			- Various AI Tools L Meshy
+- Initial Showcase Demo
+- Start a youtube channel
+- Talk About the game idea
+- Vertical Slice
+- Playtest Game
+- 

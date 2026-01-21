@@ -36,7 +36,7 @@
 - `Alt + S` : Simulate the game without playing it
 - `Ctrl + Shift + H` : Shows framerate
 - `F10` : Fullscreen editor
-- 
+- `Selected Object + END` : Places the selected object on top of the object beneath it 
 
 > **Mouse**
 

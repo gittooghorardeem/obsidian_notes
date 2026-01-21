@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Games/Unreal Engine/Unreal Engine.md",
+                "file": "Games/Unreal Engine/Environment Design/TuT Env and Level Design.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Unreal Engine"
+              "title": "TuT Env and Level Design"
             }
           }
         ]
@@ -168,9 +168,10 @@
   },
   "active": "5805137fec4dd183",
   "lastOpenFiles": [
+    "Games/Unreal Engine/Unreal Engine.md",
     "Games/Unreal Engine/Environment Design/TuT Env and Level Design.md",
     "Games/Unreal Engine/Environment Design/Environment Design.md",
-    "Games/Unreal Engine/Unreal Engine.md",
+    "Games/Solo Game Development.md",
     "Games/UE-Beginner Game/MyFirstFPSProject - BP Focussed.md",
     "Games/UE-Beginner Game/Beginner Game Tutorial.md",
     "Games/Unreal Engine/Environment Design",
@@ -181,7 +182,6 @@
     "Screenshot 2026-01-11 135812.png",
     "Games/Unreal Engine/Blueprints.md",
     "Games/UE-Beginner Game",
-    "Games/Untitled.md",
     "Games/Unreal Engine/BP - Linetrace (Raycast).md",
     "Games/Unreal Engine/BP - Interaction System (Brute-Force Method) {REVISIT}.md",
     "nudgeBall.png",
