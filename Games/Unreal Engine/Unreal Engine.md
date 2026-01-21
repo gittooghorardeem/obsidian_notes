@@ -73,3 +73,4 @@
 
 - **Pascal** case for any types of naming convention (Good Practice)
 	- MyFunctionForJumOfTheCliff
+- **Save on Compile** : `...` option beside the compile button 
