@@ -37,6 +37,7 @@
 - `Ctrl + Shift + H` : Shows framerate
 - `F10` : Fullscreen editor
 - `Selected Object + END` : Places the selected object on top of the object beneath it 
+- `Game View > Ctrl + P` : Opens asset panel
 
 > **Mouse**
 
