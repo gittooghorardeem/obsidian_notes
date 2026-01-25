@@ -91,3 +91,7 @@
 					- `isFalling` > `NOT Bool`
 				- In Transition to `Idel/Running`
 					- `Get relevent Anim Time remaining (JumpEnd)` > `Less or Euqal 0`
+- Cerate Pickup Blueprint
+	- Create Blueprint `BP_Pickup`
+	- Add *Static Mesh*
+	- 
