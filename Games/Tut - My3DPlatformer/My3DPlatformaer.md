@@ -63,3 +63,31 @@
 
 - Configure Character Jump
 	- `BP_MainCharacter` 
+	- In the Tut for jump it is configured `Space + Hold` for double jumps
+- Configure the *Gravity Scale* : `1.5`
+- `Character Movement` : Max Walking Speed : `800`
+- Create Character Animation : 
+	- `BP_MainCharacter` 
+	- Animation > *Use Animation Blueprint* > Lets create our own animation BP
+	- Create Folder > `Content > My3DPlatformer > Characters > EpicCharacter`
+	- Create BP : `Animation > Animation Blueprint`> `BPA_EpicCharacter`
+	- *AnimGraph* : 
+		- Add `State Machine` > `Locomotion` >> *This will drive the character*
+		- Double click on `Locomotion`
+			- `Entry` > Add State > `idle/Running`
+			- `idle/Running` > add from *Asset Browser* > `EpciCharacter_idleRun_2d` > `Output Animation Pose`
+			- `Speed` : promote to variable
+		- `Eventgraph`
+			- `Try Get Pawn Owner` || `Event Blueprint Update Animation` > `Cast To Character`
+			- `Try Get Pawn Owner` > Return Value > `Get Vlocity` > `Vector Length`
+			- `Vector Length` > `Speed` > `Cast to Character` 
+			- **Jump** : 
+				- `Locomotion` > `Idel/Running` > `JumpStart` > `JumpLoop` > `JumpEnd` > `Idle/Running`
+				- In *Transition* nodes `JumpStart`
+					- Promote to Variable : `Can ErrorTransition`
+				- in *Transition* node to `JumpLoop`
+					- `Get relevent Anim Time remaining (JumpStart)` > `Less or Equal 0`
+				- In Transition to `JumpEnd`
+					- `isFalling` > `NOT Bool`
+				- In Transition to `Idel/Running`
+					- `Get relevent Anim Time remaining (JumpEnd)` > `Less or Euqal 0`
