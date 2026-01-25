@@ -25,12 +25,14 @@
             "id": "9e368b24b24b482f",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.5"
+                "file": "Games/Tut - My3DPlatformer/My3DPlatformaer.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.5"
+              "icon": "lucide-file",
+              "title": "My3DPlatformaer"
             }
           }
         ],
@@ -181,6 +183,9 @@
   },
   "active": "9e368b24b24b482f",
   "lastOpenFiles": [
+    "Games/Unreal Engine/Creating Light & Levels.md",
+    "Games/Unreal Engine/Creating Landscape.md",
+    "Games/UE-Beginner Game/MyFirstFPSProject - BP Focussed.md",
     "Games/Unreal Engine/Unreal Engine.md",
     "Games/Tut - My3DPlatformer/My3DPlatformaer.md",
     "Games/Tut - My3DPlatformer/YT Tutorial.md",
@@ -194,7 +199,6 @@
     "Games/Unreal Engine/Environment Design/TuT Env and Level Design.md",
     "Games/Unreal Engine/Environment Design/Environment Design.md",
     "Games/Solo Game Development.md",
-    "Games/UE-Beginner Game/MyFirstFPSProject - BP Focussed.md",
     "Games/UE-Beginner Game/Beginner Game Tutorial.md",
     "Games/Unreal Engine/Environment Design",
     "Games/UE-Beginner Game/Unreal Motion Graphics UI desiger.md",
@@ -217,8 +221,6 @@
     "Games/Unreal Engine/BP- Timer.md",
     "Games/Unreal Engine/BP- Structure.md",
     "Games/Unreal Engine/BP- Macros.md",
-    "Games/Unreal Engine/BP- Function.md",
-    "Games/Unreal Engine/BP- For loop.md",
     "validity_check.png",
     "Mouse_sentivity_optimized.png",
     "Mouse_sentivity_optimized_from_mouse_movement.png",

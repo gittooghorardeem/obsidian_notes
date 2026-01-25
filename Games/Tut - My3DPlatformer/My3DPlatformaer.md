@@ -53,4 +53,13 @@
 
 > **Create Level**
 
+- Add Light actors
+	- *DirectionalLight*
+	- *SkyAtmosphere*
+	- *Exponential Height Fog*
+	- *SkyLight*
+- Add *Volumetric Cloud*
+- Add *PlayerStart*
 
+- Configure Character Jump
+	- `BP_MainCharacter` 
