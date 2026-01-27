@@ -10,4 +10,4 @@ YT Video : [Intro to DaVinci](https://youtu.be/MCDVcQIA3UM?si=lDAwk83YMmADPSNn)
 - `J` : *Backwards*
 - `K` : *Stop*
 - `L` : *Forward*
-- 
+Start From : `OO:47:01`
