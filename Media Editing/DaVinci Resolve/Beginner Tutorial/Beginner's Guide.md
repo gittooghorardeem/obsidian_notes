@@ -37,4 +37,12 @@
 
 ~~Start From : `00:38:30`~~
 
+> **Fusion**
+
+- **Nodes**
+	- `MedianIn1` - Get the content from the timeline
+	- `MedianOut1` - Put the Image in the timeline
+
+> **Color**
+
 - 
