@@ -94,4 +94,5 @@
 - Cerate Pickup Blueprint
 	- Create Blueprint `BP_Pickup`
 	- Add *Static Mesh*
+	- Add `BP_Pickup` in the level
 	- 
