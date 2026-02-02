@@ -95,4 +95,4 @@
 	- Create Blueprint `BP_Pickup`
 	- Add *Static Mesh*
 	- Add `BP_Pickup` in the level
-	- 
+	- Add a GameOver BP `BP_Goal`
