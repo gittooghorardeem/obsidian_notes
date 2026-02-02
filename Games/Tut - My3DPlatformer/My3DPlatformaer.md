@@ -96,3 +96,15 @@
 	- Add *Static Mesh*
 	- Add `BP_Pickup` in the level
 	- Add a GameOver BP `BP_Goal`
+- Add more Pickuo types
+	-  Create a Child Class from `BP_Pickup` > `BP_Coin` & `BP_Key`
+	- Update the Static mesh
+	- Move `BP_Coin` & `BP_Key` 
+	- `BP_Pickup` add custom event `PickedUp`
+	- `BP_Coin` add `PickedUp`
+	- `BP_Pickup` > `BP_PickedUp`  > `PlaySound2d`
+	- `BD_Coin`/`BD_Key` eventgraph add `PickedUp` function (this overrides "BP_Pickup")
+		- `Add Call to Parent Function` 
+	- `BP_Pickup` make the `Sound` a variable
+		- Clear the Added sound effect
+		- `BP_Coin` and `BP_Key` > Class Defaults > add the desired Sound Effects
