@@ -14,6 +14,7 @@ YT Video : [Intro to DaVinci](https://youtu.be/MCDVcQIA3UM?si=lDAwk83YMmADPSNn)
 - `A` : Edit : Selection tool
 - `Backspace` : Edit : Delete Selected
 - `D` : Edit Timeline : Disable Clip
+- `Ctrl + Alt + L` : Edit timeline : Link Clips
 ~~Start From : `OO:47:01`~~
 - `Alt + S` : Color : Add new Sequence Node
 - *Color Management*

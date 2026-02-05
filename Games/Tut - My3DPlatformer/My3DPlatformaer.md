@@ -108,3 +108,7 @@
 	- `BP_Pickup` make the `Sound` a variable
 		- Clear the Added sound effect
 		- `BP_Coin` and `BP_Key` > Class Defaults > add the desired Sound Effects
+- `BP_Key` to unlock the gates
+	- `BP_Key` Viewport > Add Variable `KeyType` with data type `Gameplay Tag`
+		- *Project Settings > Gameplay Tags*
+		- 
