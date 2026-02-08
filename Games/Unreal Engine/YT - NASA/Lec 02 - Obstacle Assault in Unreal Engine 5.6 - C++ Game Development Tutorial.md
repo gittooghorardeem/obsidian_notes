@@ -126,6 +126,50 @@
 	- The amount of frame you have in 1 second is called Frames Per Seconds (FPS)
 	- Tick is a special function that is called every frame of the game
 
-Start From : `01:50:33`
+Start From : ~~`01:50:33`~~
+
+**Move the platform from the Starting Position**
+
+- `GetActorLocation()` : will give the current location of an Actor as FVector
+	- This function returns a value to us
+	- `Get` : returns a value
+	- `Set` : Sets a value (`SetActorLocation`)
+	  
+	  `CurrentLocation = GetActorLocation();`
+
+**Make the Game Framerate Independent (Delta Time)**
+
+- *The Speed Problem*
+	- Different computers will run the game at different speeds 
+	- This creates a problem if we are adding or subtracting a value inside of the *Tick Function* 
+- *Delta Time*
+	- Use a special variable called `DeltaTime` to fix this issue 
+	- Delta time is the amount of time it took the CPU to compute the last frame
+		- 1. Get Input
+		- 2. Update Game State 
+		- 3. Render Graphics on the Screen
+	- We can make operations like these frame rate independent by Multiplying the value we are adding with delta time
+	- `DeltaTime `value is given by the *Unreal engine*, we do not need to calculate it 
 
 
+**Velocity Vectors and Number operations on Structs**
+
+- Create a Member Variable in the `MovingPlatform.h` file.
+- Member Variable : `PlatformVelocity`
+  `UProperty(EditAnywhere)`
+  `FVector PlatformVelocity = FVector(0.0f, 0.0f, 0.0f);`
+- In the `MovingPlatfomr.cpp` file 
+	- `CurrentLocation = CurrentLocation + (PlatformVelocity * DeltaTime);`
+- From UE editor update the `PlatformVelocity` from `MovingPlatform` Actor Class details section.
+
+**Functions**
+
+- Create a New function in the `MovingPlatform.cpp` file
+- `MyTestFunction() {--- Log message ---}` over `BeginPlay()` function 
+- Call the `MyTestFunction()` inside `BeginPlay()` function
+
+Start From `02:24:50`
+
+**Function Parameters**
+
+- 
