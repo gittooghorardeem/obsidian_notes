@@ -168,8 +168,72 @@ Start From : ~~`01:50:33`~~
 - `MyTestFunction() {--- Log message ---}` over `BeginPlay()` function 
 - Call the `MyTestFunction()` inside `BeginPlay()` function
 
-Start From `02:24:50`
+~~Start From `02:24:50`~~
 
 **Function Parameters**
 
-- 
+- function `GetName()` - Will return the name of this actor. 
+
+**Member Function**
+
+- Member functions can be defined anywhere in the `.cpp` file unlike normal functions which needs to be defined before `BeginPlay()` member function
+- Member Function is a function that belongs to a Class
+  
+  *Header File* : Declaration 
+  `class AMovingPlatform`
+  `{`
+	  `void MemeberFunction(float MyParam);`
+	  `}`
+	  
+	*C++ File* : Definition 
+		`void AMovingPlatform : : MemberFunction(float My Param)`
+		`{`
+			`fVector MyLocation = GetActorLocation();`
+			`SetActorLocation(MyLocation * 2.0f):`
+			`}`
+ 
+
+- Create a Member function : 
+	- `.h` file : `void MovePlatform(float DeltaTime);` 
+	- `.cpp` file : 
+		- Make MovePlatform a Member function by link it with the class
+		  `void AMovingPlatfomr : : MovePlatform(float DeltaTime) { --- }`
+		- Cut paste the platform movement code from Tick() function in side the `MovePlatfomr()` member function 
+		- Call the `MovePlatform()` function inside `Tick()`
+		  `MovePlatfomr(DeltaTime)`
+- Create a Member function to Rotate the Platform
+	- Create a Function `RotatePLatform(DeltaTime)` in the `.h` file
+	- Create a Member variable
+		- `UPROPERTY(EditAnywhere)`
+		  `FRotator PlatfomrRotator = FRotator(0.0f, 0.0f, 0.0f);`
+	- Define the Member function `RotatePLatform(DeltaTime)` in the `.cpp` file
+		- Add a `FRotator` Variable `CurrentRotation`
+		- `GetActorRotation()` and `SetActorRotation()`
+	- Call `RotatePLatform(DeltaTime)` in side of `Tick()` function
+
+**Classes and Instances**
+
+**Blueprint Child Classes**
+
+- *C++ Class > Blueprint Child Class > Instances created from Blueprint Child Class*
+- Move to the *MyStuff* folder
+- Create a Blueprint `MovingPlatfomr` class > `BP_MovingPlatfomr`
+
+**Platform Move Distance and Scope Resolution Operator**
+
+-  Platform *Start Location* and *Distance Moved*
+- Create a Member variable in the `.h` file, no need to *UPROPPERTY* and *Default values*
+  `FVector StartLocation;`
+- In `.cpp` file `BeginPlay()`
+	- `StarLocation  = GetActorLocation();`
+- in `.h` Create a `UPROPERTY(VisibleAnywherw)` member variable > 
+  `float DistanceMoved = 0.0f;`
+- *Scope Resolution opertor*
+	- `.cpp` > `MovePlatform()`
+	- `DistanceMoved FVector :: Dist(StartLocation - CurrentLocation);` -> Returns *float*
+
+
+Start From `03:08:59`
+
+
+

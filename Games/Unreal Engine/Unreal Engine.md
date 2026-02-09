@@ -28,7 +28,7 @@
 - `Ctrl + H` : Unhide All hidden Objects
 - `Alt + Select Obj + Drag` : Obj Duplicate Shortcut
 - `L + LMB` : BP - Viewport : Rotate the Sun
-- `SHIFT + F!` : Game Play mode : releases the mouse cursor from the game View 
+- `SHIFT + F1` : Game Play mode : releases the mouse cursor from the game View 
 - `Ctrl + LMB` : BP - Event graph : reconnect pin / link
 - `Alt + M + P` : Gameplay Simulation
 - `Ctrl + L` : In game viewport move the position of the sun
