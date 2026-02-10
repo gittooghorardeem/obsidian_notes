@@ -265,5 +265,17 @@ Start From : ~~`01:50:33`~~
 
 **Converter to Function**
 
+**Import Assets from FAB library**
 
+- FAB Library : 
+	- Environment : *Stylized Eastern Village*
+	- Character : *Survival Character*
+	- Props : *Construction Site Vol 1*
+- 
 
+**Level Designing with the asset packs**
+
+- Moving the Gizmo in the center of the object
+	- Object Blueprint
+	- Align the object mesh center with the default scene root center 
+	- 
