@@ -233,7 +233,37 @@ Start From : ~~`01:50:33`~~
 	- `DistanceMoved FVector :: Dist(StartLocation - CurrentLocation);` -> Returns *float*
 
 
-Start From `03:08:59`
+~~Start From `03:08:59`~~
+
+**'If' Statement for moving platforms to cycle the movement**
+
+- Comparison Operators : These operator take 2 values, compare them and evaluate o Boolean value
+	- `==` : Equal 
+	- `!=` : Not Equal
+	- `>` : Greater than
+	- `<` : Less Than 
+	- `>=` : Greater or equal to 
+	- `<=` : Less or qual to 
+- `.h` file : Create a UEPROPERTY Member Variable : `MovedDistance`
+- `.cpp` file : in `MovePlatform()`
+	- `if (DistanceMoved >= MovedDistance)`
+	  `{`
+		  `PlatfomrVelocity = - PlatfomrVelocity;`
+		  `StartLocation = CurrentLocation;`
+		  `}`
+
+**Overshoot Problem for the Platforms**
+
+- Overshoot correction : 
+	- *StartLocation = StartLocation + MovedDistance * Direction*
+- in `.cpp` file create 2 variables in `MovePlatform()`
+	- `float OverShoot = DistanceMoved - MovedDistance` 
+	- `FString PlatformName = GetName()`
+- ![[MovePlatform_Overshoot_correction.png]]
+
+**Function Return Values**
+
+**Converter to Function**
 
 
 
