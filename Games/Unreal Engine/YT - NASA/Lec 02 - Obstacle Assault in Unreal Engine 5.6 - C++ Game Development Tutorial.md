@@ -68,6 +68,7 @@
 			- Need to put an * in front of the Variable name
 			  `UE_LOG(LogTemp, Display, TEXT("My name is %s"), *MyName);`
 		- `%c` = To print out a `Character`
+		- `%p` = To print out memory location  
 
 **Basic Mathematical Operations**
 

@@ -154,4 +154,25 @@
 	- If you assign theoriginal to a new variable the entire memory will be copied 
 	- This isn't a problem with the basic data types, but it becomes costly when dealing with larger types like classes/structs 
 
-Start from `00:59:54`
+~~Start from `00:59:54`~~
+
+- Never assign `null` to a pointer -> it will crash the game
+- Assign `nullptr` when declaring a pointer variable.
+- To print out memory address
+	- `%p` -- 
+	  `UE_LOG(LogTemp, Display, TEXT("*FloatPtr is %p"), FloatPtr);`
+- Pointers mainly get used for `Structs` and `Classes` 
+- Vector Log print : 
+	- `MyVector.GetSafeNormal();`
+	- `MyVector.ToCompactString();`
+	- `VectorPtr->ToCompactString();`
+
+![[Screenshot 2026-02-15 213627.png]]
+
+
+**GetOwner() Function**
+
+- `AActor* MyOwner = GetOwner();`
+- `MyOwner->GetActorNameOrLabel();`
+
+Start from `01:14:47`
