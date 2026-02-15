@@ -1,0 +1,157 @@
+**YT Channel** : [NASA](https://www.youtube.com/@na12672/videos)
+**Tutorial Vid** : [# Dungeon Escape in Unreal Engine 5.6](https://youtu.be/qmlzAD3lvG8?si=48bVEeT7oEqmQgYv)  
+
+**Summary** 
+
+- Dungeon Puzzle game
+- Solve puzzles to find items
+- Place items to complete puzzle
+- Inventory systems
+- Movable planes in the game level
+- Open and ending of the game
+
+**Action Plan**
+
+- Create a new project with the FPS template 
+- Setup a cool test level from scratch 
+- Learn about the lighting system in Unreal 
+- Code the gameplay elements : Mover, Trigger, Pressure Plates, Item System etc. 
+- Cover more on C++ and unreal basics etc
+- Import assets and design the final level
+
+--- ----
+
+
+**Create a New Project**
+
+- Create a new project using *First Person Template* using `C++` 
+- Create a new folder **MyStuff** inside the content folder
+
+**Create a New Blank Level**
+
+- Create a new *Empty* level - `TestLevel`
+- Set `TestLevel` as Default level from *Project Settings* 
+- Add a `Geometry` Brush > `Box Brush`
+	- Set the location of the Box Brush `0,0,0`
+	- From *Brush Settings* update the scale `5000, 5000, 50`
+	- Rename the `Box Brush` > `Ground`
+	- make the viewport `Unlit`
+	- Add a `Player Start` actor
+
+**Lighting Setup**
+
+- Add Lights 
+	- `Directional Lights` :
+	- `Sky Light`
+- For Sky > 
+	- `Visual Effects`
+		- `Sky Atmosphere`
+		- `Exponential Height Fog`
+		- `Volumetric Cloud`
+		- 
+- `Sky Light`
+	- Details > `Recapture`
+		- after any changes made with the level's directional lights 
+	- Details > **Check** `Realtime Capture`
+
+**Mobility Settings of Lights**
+
+- Set *Mobility* setting to `Movable` for
+	- `Directional Light`
+	- `Skyligh`
+- Move all the lighting elements to `Lighting` folder
+
+**Materials and Test Area**
+
+- ***Starter Content asset pack***
+	- *Add* > *Add Feature or Content Pack* > *Contents*
+- Material assigning on actors 
+	- Select the preferred material 
+	- then add a Geometry Brush object
+- Rename the `Box Brush` actor to `Room1`
+- Add Door
+	- `Subtractive brush` - *Box Brush*
+- `Room1` Details section
+	- *Hollow*
+	- *Wall Thikness*
+
+
+**Character Blueprint and GameMode**
+
+- `Content > FirstPerson > Blueprint`
+- Create a Child class from `BP_FirstPersonCharacter` > `BP_Player`
+- Move `BP_Player` to `MyStuff` folder
+- **Uncheck** the `Visible` settings for both of the meshes
+- Open Starter `content > FirstPerson > Blueprint > BP_FirstPersonGameMode`
+	- Game mode Classes setting Update the Default Pawn class > `BP_Player`
+
+- *GameMode*
+	- 
+
+**Inheritance vs Composition**
+
+- *Inheritance* : A child class automatically has all the functionality of the parent. The Child "is a" parent 
+	- More rigid and strict
+	- Cannot break the structure of the Hierarchy
+- *Composition* :  Class A has an instance of Class B,  it can choose to use its functionality but doesn't have to. Class A "has a" Class B
+	- More relaxed
+- *Is-a*
+  ![[Screenshot 2026-02-15 140053.png]]
+- *Has-a*
+  ![[Pasted image 20260215140755.png]]
+  ![[Screenshot 2026-02-15 142252.png]]
+  
+**Create Mover Component**
+
+- *Game plan* : Create a component that will move the actor of our choice 
+- Place a Cube shape and transform it to a Door shape and rename `Room1_Door_Shape`
+- Create a New Actor Component C++ Class `Mover`
+- VS : `Mover.cpp` `Mover.h`
+- Add `Mover` Actor component with the actor `Room1_Door_Shape`
+
+**Pointers**
+
+- *Variables in Memory*
+	- Variables are stored in the memory of the Computer. 
+	- All variable have an addresses 
+	- This address is the location of this variable in the memory 
+	- We can get this address with the `&` operator
+	  
+	  `float MyFloat = 10.5f;`
+	  `&MYFloat; //Address of MyFloat`
+	  `// Example address : 845600320`
+- *Pointer*
+	- A pointer is a type of variable 
+	- it stores the address of a variable in memory, and it is used to access that variable 
+	- to create a pointer use the * operator after the data type of the variable
+	  
+	  `float MyFloat = 10.5f;`
+	  `float *PointerToMyFloat = &MyFloat;`
+	- ![[Screenshot 2026-02-15 150358.png]]
+
+- *Accessing Pointers*
+	- * operator is used to dereference a pointer and access the value it is pointing to. 
+	  
+	  `float MyFloat = 10.5f;`
+	  `float *PointToMyFloat = &MyFloat;`
+	  
+	  `float Value = *PointToMyFloat; // Value is 10.5f`
+	  `*PointToMyFloat = 3.2f; // MyFloat is assigned to 3.2f`
+- *Pointer Types* 
+	- We can create pointer of any datatype.
+	- C++ basic data types (int, float etc.), structs and classes 
+	  
+	  `FVector MyVector = FVector(1.0f,1.0f,1.0f);`
+	  `FVector *PointerToMyVector = &MyVector;`
+	  
+	  `(*PointerTOMyVector).X = 2.0f;`
+	  
+	  C++ : `PointerTOMyVector -> Y = 5.0f;`
+- *Advantages of Pointers* 
+	- Lets say we want to create a copy of a variable 
+	  int A = 10;
+	  int B = A;
+	- If you assign theoriginal to a new variable the entire memory will be copied 
+	- This isn't a problem with the basic data types, but it becomes costly when dealing with larger types like classes/structs 
+
+Start from `00:59:54`
