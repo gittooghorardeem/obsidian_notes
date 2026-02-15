@@ -260,6 +260,15 @@ Start From : ~~`01:50:33`~~
 	- `float OverShoot = DistanceMoved - MovedDistance` 
 	- `FString PlatformName = GetName()`
 - ![[MovePlatform_Overshoot_correction.png]]
+**Rotate Platform**
+
+- `void AMovingPlatform::RotatePlatform(float Deltatime)`
+	`{`
+	`// Rotate the Platform`
+	`FRotator  RotationToAdd = RotationVelocity * Deltatime;`
+
+	`AddActorLocalRotation(RotationToAdd);`
+	`}`
 
 **Function Return Values**
 
@@ -278,4 +287,9 @@ Start From : ~~`01:50:33`~~
 - Moving the Gizmo in the center of the object
 	- Object Blueprint
 	- Align the object mesh center with the default scene root center 
-	- 
+
+~~Start From `03:59:03`~~
+
+**Player actions tweaks**
+
+Start From `04:04:18`
