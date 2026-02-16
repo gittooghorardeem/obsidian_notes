@@ -170,9 +170,50 @@
 ![[Screenshot 2026-02-15 213627.png]]
 
 
-**GetOwner() Function**
+**GetOwner() Function & move the Door Up* to the sky*
 
 - `AActor* MyOwner = GetOwner();`
 - `MyOwner->GetActorNameOrLabel();`
+- Also `GetOwner()->GetActorNameOrLabel();`
 
-Start from `01:14:47`
+~~Start from `01:14:47`~~
+
+**Math Library Function** (*For the moving Door*)
+
+- *Game Plan*
+	- Move Offset
+	- Target Location
+	- Math Library Function
+	- Boolean : Should Move
+		- If true : Moves
+		- if False : wont move
+- In `Mover.h` file
+	- *Member* variables : 
+		- `StartLocation`
+		- `TargetLocation`
+	- *UProperty Member* Variable : 
+		- `FVector MoveOffset;`
+		- `float MoveTime = 5.0f;`
+		- `bool ShouldMove = false;`
+- in `Mover.cpp` file
+	- `#include "Math/UnrealMathUtility.h"`
+	- `BeginPlay()`
+		- `TargetLocation = StartLocation + MoveOffset`
+	- `TickComponent()`
+		- `if (ShouldMove == true) {---}`
+			- `FVector CurrentLocation = GetOwner()->GetActorLocation();`
+			- `float Speed = MoveOffset.Length() / MoveTime;`
+			- `FVector NewLocation = FMath::VInterpConstantTo(CurrentLocation, TargetLocation, DeltaTime, Speed);`
+- `*FMath :: VInterpConstantTo()*`
+	- Interpolate vector from Current to Target with Constant step
+	- `FVector VInterConstantTo(current, target, DeltaTime, Speed)`
+
+![[Screenshot 2026-02-16 121339 1.png]]
+
+**Move Door Back n forth**
+
+- ![[Door_moving_up_down.png]]
+
+
+**Logical NOT Operator**
+
