@@ -217,3 +217,49 @@
 
 **Logical NOT Operator**
 
+~~Start From `01:43:04`~~
+- *NOT Operator* `!`
+	- Reverse the Result 
+	- Returns **False** if the result is *True*
+	- Returns **True** if the result is *False*
+
+**Compilation Process of C++ Unreal project**
+
+- `Source Code`
+	- Feeding all the source code to *Unreal Hader Tool* - Generate more C++ code
+		- *Unreal Header Tool* -> Standard C++ Compilation
+			- *Preprocessor* : 
+				- `game.cpp, math.h, math.cpp` -> `game.i` , `math.i` intermediate file > Sends to *Compiler*
+			- *Compiler* : Compile to Binary executable files and links to the Linker
+				- `game.obj, math.obj` (Machine or Binary code files) > Sends to *Linker*
+			- *Liner* : Gather all the executables and generate a singular Executable 
+				- `---.obj` -> `game.exe` single executable
+	- ![[Unreal_Cpp_Compilation_Process.png]]
+
+**Trigger Components**
+
+- **Action Plan**
+	- Trigger as component added to Actors like Mover component
+	- Trigger to have transform
+	- Collision components 
+	- Need to Use Box Component 
+	- Connection with Mover components 
+	- 2 different Gameplay elements 
+		- 1. Pressure Plate
+		- 2. Item Lock system
+
+- Create a new C++ `BoxComponent` Class > `TriggerComponent`
+	- C++ does not include the `Beginplay()` or `TickComponent()` function by default after creation. 
+	- Copy paste the missing functions and attributes form `Mover.h` and `Mover.cpp` files 
+
+**Trigger Component : Constructor function in C++**
+
+- *Constructor*
+	- Constructor is a special function belongs to a Class
+
+**Connection Between Trigger and Mover components**
+
+- *Action Plan*
+	- Access to the Actor who owns the *Mover component* from the *Trigger Component*
+
+Start From `02:11:21`
