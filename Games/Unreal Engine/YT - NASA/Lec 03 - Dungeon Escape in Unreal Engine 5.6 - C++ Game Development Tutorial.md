@@ -262,4 +262,64 @@
 - *Action Plan*
 	- Access to the Actor who owns the *Mover component* from the *Trigger Component*
 
-Start From `02:11:21`
+~~Start From `02:11:21`~~
+- `TriggerComponent.h` file
+	- create a *UProperty* member variable `*MoverActor` 
+		- `UProperty(EditAnywhere) AActor* MoverActor;` 
+	- #inlcude `Mover.h` to `TriggerComponent.h` file
+	- Create a Member Variable `*Mover`
+		- `UMover* Mover;`
+- Add any #include inside the `.h` file, always add before : 
+	- `#include "TriggerComponent.generated.h"`
+- `TriggerComponent.cpp` file
+	- Check if the *TriggerComponent* pointer `MoverActor` is *null*
+	- Check if the *Mover Component* pointer `Mover` is *null*
+	- `Mover = MoverActor->FindComponentByClass<UMover>();`
+
+![[null_check_for_Mover_Trigger_Components.png]]
+
+
+**True False values in C++**
+
+- In C++ 0(Zero) is used to represent `false`
+	- `0, nullptr, NULL`
+- Everything non-zero is `true`
+- *Pointer*
+	- A valid pointer has a non-zero value
+	- A null pointer has a *false* value, because nullptr is zero
+		- `AActor* MyActor = 0;`
+		- `AActor* MyActor = nullptr;`
+		- `AActor* MyActor = NULL;`
+
+**Delegates/Events in C++ (Pressure Plate)** 
+
+- *Delegates* are events that are *fired* when certain thing happens 
+- Functions are able to be connected to these delegates
+- When the delegate is fired connected functions are called
+- *Overlap Events*
+	- The Box Component has a delegate called 
+		- `OnComponentBegingOverlap`
+	- This Delegate is fired when something *overlaps* with this component
+	- For example, the player walking into the trigger 
+	- There is a similar delegate for when something stops overlapping
+		- `OnComponentEndOverlap`
+- ![[Overlap_events.png]]
+- *Binding Functions to Events*
+	- Delegates require a *specific function signature* for the function that we want to bind
+	- We can find these signature in the *Unreal [Documentation*](https://dev.epicgames.com/documentation/en-us/unreal-engine/cpp-only-example?application_version=5.5)
+	- copy the Function signature for `OnOverlapBegin`
+	- Paste the Function signature in `TriggerComponent.h` file
+	- Remove the `class` keywords from the functions
+	- Define the functions in `TriggerComponent.cpp` file
+	- in `TriggerComponent.cpp` file
+		- `OnComponentBeginOverlap` : the name of the Delegate
+			- `OnComponentBeginOverlap.AddDynamic(this, &UTriggerComponent::OnOverlapBegin);`
+			- `OnComponentEndOverlap.AddDynamic(this, &UTriggerComponent::OnOverlapEnd);`
+		- Make the Overlap begin and end delegates optional
+			- Create a UProperty Member variable in `.h` file
+				- `bool IsPressurePlate = false;`
+			- in `.cpp` file
+			- Call the Delegate in the `BeginPlay()` within the `if(IsPressurePlate) {---}`
+
+**Tag System**
+
