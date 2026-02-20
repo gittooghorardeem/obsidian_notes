@@ -323,3 +323,75 @@
 
 **Tag System**
 
+- *Tag :* a string of text which can be attached to an actor  
+- `MyStuff > PlayerCharacter > Viewport`
+	- `Details > Actor >> Advanced >> Tags` 
+	- add a tag for actor : `PressurePlateActivator`
+- in `TriggerComponent.cpp`
+	- Before the if condition in both `OnOverlapBegin` **OnOverlapEnd** function
+	- `OtherActor->ActorHasTag("PressurePlateActivator");`
+
+**Logical AND Operators &&**
+
+**Code Refactoring**
+
+- in `TriggerComponent.h` file
+	- Create a UProperty Member Variable `IsTriggered`
+		- `UPROPERTY(VisibleAnywhere) bool IsTriggered = false;`
+	- Create a Member function `Trigger` 
+		- `void Trigger(bool NewTriggerValue);`
+- in `TriggerComponent.cpp` file
+	- Define the `Trigger()` function 
+	- Call the Trigger() function inside the `OnOverlapBegin` and `OnOverlapEnd` functions
+
+**Private Specifiers**
+
+- *Access Modifiers*
+	- C++ access modifiers are `public`, `private` and `protected`
+	- Access Modifiers are used to assign accessibility to Class members
+	- *Public modifier*
+		- Class members are available everywhere. Functions outside of the class can access class members
+	- *Private modifier*
+		- Members cannot be access from outside functions. Only Available in the class.
+
+Start From `03:17:02` (**REVISIT**)
+
+- ....
+- ....
+- .... revisit ...
+
+- *How Many actors are on Pressure plate*
+	- Deactivate when all the actors are off the pressure plate
+	- *Activator Count*
+		- actor on : +1
+		- actor off : -1
+	- `TriggerComponent.h` file
+		- VisibleAnywhere Uproperty variable :
+		   `int32 ActivatorCount = 0;`
+		    *int32 guarantees 32 bit* 
+	-  `TriggerComponent.cpp` file
+		- Call `ActivatorCount` inside the `overlapbegin` and `overlapend` functions 
+			- `OverlapBegins` : `ActivatorCount++`
+			- `OverlapEnds` : `ActivatorCount--`
+		- for `OnOverlapEnd`
+			- `if (IsTriggered && ActivatorCount == 0) {---}`
+				- `Trigger(false);`
+
+
+**Pressure Plate Puzzles**
+
+- Create a new Actor BP : `BP_PressurePlate`
+- Add `Trigger` component
+- From settings *Enable* `IsPressurePlate`
+- Place the `BP_PressurePlate` in the Test level
+	- `Trigger > TriggerComponent > MoverActor > Room1_Door_Shape`
+- 
+Start From `03:32:16`
+
+
+
+
+
+
+
+
