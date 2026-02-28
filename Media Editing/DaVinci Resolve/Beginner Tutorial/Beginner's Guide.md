@@ -42,6 +42,11 @@
 - **Nodes**
 	- `MedianIn1` - Get the content from the timeline
 	- `MedianOut1` - Put the Image in the timeline
+	- `Input colors` : Color sensitive 
+		- *yellow* = Background
+- *Fusion* is a compositing tool
+
+Start From : `2:31:45`
 
 > **Color**
 

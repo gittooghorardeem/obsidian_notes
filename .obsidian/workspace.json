@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Games/Unreal Engine/YT - NASA/Lec 03 - Dungeon Escape in Unreal Engine 5.6 - C++ Game Development Tutorial.md",
+                "file": "Media Editing/DaVinci Resolve/Beginner Tutorial/Beginner's Guide.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lec 03 - Dungeon Escape in Unreal Engine 5.6 - C++ Game Development Tutorial"
+              "title": "Beginner's Guide"
             }
           }
         ]
@@ -168,6 +168,9 @@
   },
   "active": "0f4060cbe6e15c7c",
   "lastOpenFiles": [
+    "Media Editing/DaVinci Resolve/Beginner Tutorial/DaVinci Resolve.md",
+    "Media Editing/DaVinci Resolve/Beginner Tutorial/Beginner's Guide.md",
+    "Games/Unreal Engine/YT - NASA/Lec 03 - Dungeon Escape in Unreal Engine 5.6 - C++ Game Development Tutorial.md",
     "Overlap_events.png",
     "null_check_for_Mover_Trigger_Components.png",
     "Unreal_Cpp_Compilation_Process.png",
@@ -176,18 +179,15 @@
     "Screenshot 2026-02-16 121339.png",
     "Screenshot 2026-02-15 213627.png",
     "Games/Unreal Engine/Unreal Engine.md",
-    "Games/Unreal Engine/YT - NASA/Lec 03 - Dungeon Escape in Unreal Engine 5.6 - C++ Game Development Tutorial.md",
     "Games/Unreal Engine/YT - NASA/Lec 02 - Obstacle Assault in Unreal Engine 5.6 - C++ Game Development Tutorial.md",
     "Screenshot 2026-02-15 150358.png",
     "Screenshot 2026-02-15 142252.png",
     "Pasted image 20260215140755.png",
-    "Screenshot 2026-02-15 140053.png",
     "Personals/Github.md",
     "Games/Unreal Engine/YT - NASA/Lec 01 -  Introduction & Setup in Unreal Engine 5.6 -C++ Game Development Course.md",
     "Games/Tut - My3DPlatformer/My3DPlatformaer.md",
     "Untitled.base",
     "Games/Solo Game Development.md",
-    "Media Editing/DaVinci Resolve/Beginner Tutorial/DaVinci Resolve.md",
     "Games/Unreal Engine/BP - Linetrace (Raycast).md",
     "Games/Unreal Engine/YT - NASA",
     "Games/Unreal Engine/BP - Interaction System (Brute-Force Method) {REVISIT}.md",
@@ -195,7 +195,6 @@
     "Games/UE-Beginner Game/Unreal Motion Graphics UI desiger.md",
     "Games/UE-Beginner Game/MyFirstFPSProject - BP Focussed.md",
     "Games/UE-Beginner Game/Beginner Game Tutorial.md",
-    "Media Editing/DaVinci Resolve/Beginner Tutorial/Beginner's Guide.md",
     "Games/Unreal Engine/Creating Light & Levels.md",
     "Games/Unreal Engine/Creating Landscape.md",
     "Games/Tut - My3DPlatformer/YT Tutorial.md",
