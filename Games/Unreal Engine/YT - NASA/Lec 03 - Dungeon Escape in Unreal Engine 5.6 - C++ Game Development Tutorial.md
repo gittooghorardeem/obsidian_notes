@@ -386,7 +386,45 @@ Start From `03:17:02` (**REVISIT**)
 - Place the `BP_PressurePlate` in the Test level
 	- `Trigger > TriggerComponent > MoverActor > Room1_Door_Shape`
 - 
-Start From `03:32:16`
+~~Start From `03:32:16`~~
+
+**Puzzle Game**
+
+- *Action Plan* :
+	- Create a `Tag` in *C++*
+	- Have *Collectable* items 
+	- Create a *Lock* Actor with Trigger component 
+- **Create a Collectable Item**
+	- Create a C++ class `CollectableItem` using *Actor* as Parent  
+	- in `CollectableItem.h` file : 
+		- add a UProperty Member Variable `ItemName`
+	- In `Collectable.cpp` file : 
+		- Create a Tag for collectable items in the game 
+		- in `ACollectableItem() {---}`
+			- `Tag` *(a Member variable)*
+			- Tag variable can hold multiple strings of text
+			- `Tag.Add("CollectableItem")`
+	- Create a New BP class from *CollectableItem Class* named `BP_GlassStatue` 
+	- Drag and drop Glass Status from `StarterContent > Props`
+	- In the BP_GlassStaute details section add `GlassStatue` under `ItemName`
+- **Create a Lock Actor class*
+	* New C++ class `Lock` (*Actor class as parent*)
+	* in `Lock.h` 
+		* add the header files 
+			* `#include "TriggerComponent.h"`
+			* `#include "Components/StaticMeshComponent.h"`
+		* Create the following Components : 
+			* *UProperty(VisibleAnyWhere)*
+				* `USceneComponent* RootComp;`
+				* `UTriggerComponent* TriggerComp;`
+				* `UStaticMeshComponent* KeyItemMesh;`
+	* in `Lock.cpp`
+		* ![[Screenshot 2026-03-02 184506.png]]
+* Create a BP class where *Lock* as parent `BP_TestDoorLock`
+
+Start from `3:56:25`
+
+
 
 
 
