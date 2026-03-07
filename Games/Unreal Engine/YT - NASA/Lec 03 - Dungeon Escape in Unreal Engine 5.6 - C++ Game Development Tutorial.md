@@ -422,8 +422,20 @@ Start From `03:17:02` (**REVISIT**)
 		* ![[Screenshot 2026-03-02 184506.png]]
 * Create a BP class where *Lock* as parent `BP_TestDoorLock`
 
-Start from `3:56:25`
+~~Start from `3:56:25`~~
 
+- **Collision**
+	- *Collision Enabled* options : 
+		- `No Collision` : Other objects will move just through the objects 
+		- `Query Only` :  Spatial Queries like Raycast, Sweep and Overlaps but **NO** Physics Collision
+		- `Physics Only` :  For Physics Simulation like Rigid body,  Constraints but **NO** Spatial Queries 
+		- `Collision Enabled` : for Both Spatial Queries and Physics
+	- *Object Type* options 
+		- 
+	- *Collision Presets* options : 
+		- ![[Screenshot 2026-03-03 104339.png]]
+
+Start From `04:08:00`
 
 
 
