@@ -435,7 +435,19 @@ Start From `03:17:02` (**REVISIT**)
 	- *Collision Presets* options : 
 		- ![[Screenshot 2026-03-03 104339.png]]
 
-Start From `04:08:00`
+~~Start From `04:08:00`~~
+			- `BP_TestRoodLock` > *Key Item Mesh > Collision > Custom > Ignore Pawn*
+			- `BP_Player` > *Capsule Component > Collision > By Default type is set as Pawn*
+
+- **Set Visibility of a mesh from C++ for LockActor class**
+	- *Action plan* : 
+		- LMB collectable item to store the item in the inventory
+		- LBM the Stored collectable item on the lock to trigger the Trigger component 
+		- Specify the item as `KeyItem`
+		- `KeyItemName` string 
+		- Boolean `IsKeyPlaced`
+	- 
+
 
 
 
