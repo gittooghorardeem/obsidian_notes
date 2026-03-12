@@ -451,7 +451,24 @@ Start From `03:17:02` (**REVISIT**)
 **Interaction System**
 
 - *Input System*
-	-  
+	-  **REVIEW** : `04:20:00`
+
+**Line Trace / Ray Casting  and New Trace Channel**
+
+- New Trace channel
+	- From *Project Settings > Engine > Collision*
+- 
+
+**UWorld Object**
+
+- *UWorld Object* : A top level Object Created when the game first begins.
+
+**Sphere Collision Shape for Shape Trace and Draw it**
+
+**References**
+
+
+
 
 
 

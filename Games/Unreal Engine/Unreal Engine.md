@@ -1,3 +1,7 @@
+**Unreal Engine Documentation**
+- [## Epic Games Product Documentation](https://dev.epicgames.com/documentation/)
+
+ 
  **Keyboard and Mouse**
 
 > **Keyboard**
@@ -39,6 +43,7 @@
 - `Selected Object + END` : Places the selected object on top of the object beneath it 
 - `Game View > Ctrl + P` : Opens asset panel
 - `CTRL + ALT + F11` : Live Coding
+- `LMB + F8` : Pause the game and let you move around the mouse
 
 > **Mouse**
 
