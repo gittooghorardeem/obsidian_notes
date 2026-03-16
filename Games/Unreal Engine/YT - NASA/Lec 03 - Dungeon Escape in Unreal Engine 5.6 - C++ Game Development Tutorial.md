@@ -467,6 +467,17 @@ Start From `03:17:02` (**REVISIT**)
 
 **References**
 
+- In C++, a Reference works as an alias for an exiting variable providing an alternative name for it and allowing you to work with the original data directly 
+	- `float MyFloat = 3.14f;`
+	  `float& FloatRef = MyFloat;` 
+- They are similar to Pointers in what they do, easier to use and less powerful 
+- Once a Reference is created it can not be reassigned 
+- Can not be declared with out a value 
+- Can not be a null pointer 
+
+**Reference Argument functions in C++**
+
+
 
 
 
