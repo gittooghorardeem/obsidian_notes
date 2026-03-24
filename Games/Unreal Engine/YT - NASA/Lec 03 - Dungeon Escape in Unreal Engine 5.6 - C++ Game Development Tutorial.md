@@ -477,7 +477,30 @@ Start From `03:17:02` (**REVISIT**)
 
 **Reference Argument functions in C++**
 
-
+- If an argument is a reference (or a pointer) the changes made to it inside the function will change the original variable 
+	- this is because we are passing the memory address of the original  variable into the function
+- We can use a reference argument as an additional return value. 
+- *normal argument :*
+	- `void TestFucntion(float MyFloat){---}`
+		- `MyFloat = 10.3f;`
+	- `---`
+	- `---`
+	- `float MyFloat = 3.14f;`
+	- `TestFunction(MyFloat); // MyFloat is still 3.14f`
+- *Pass by Reference :*
+	- `void TestFunction(float& MyFloat){---}`
+		- `MyFloat = 10.3f;`
+	- `---`
+	- `---`
+	- `float Myfloat = 3.14f;`
+	- `TestFunciton(MyFloat); // MyFloat is 10.3f`
+- *pass by pointer*
+	- `void TestFunction(float* MyFloat){---}`
+		- `*MyFloat = 10.3f;`
+	- `---`
+	- `---`
+	- `float Myfloat = 3.14f;`
+	- `TestFunciton(&MyFloat); // MyFloat is 10.3f`
 
 
 
